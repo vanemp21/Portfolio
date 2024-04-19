@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  width: 60px;
+  height: auto;
+  border-radius: 30px;
+}
+.ico-ts img,
+.ico-mysql img,
+.ico-drupal img {
+  border: 2px solid white;
+}
+.skills {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+[class^="ico-"] {
+  background-color: rgb(91, 85, 85);
+  border-radius: 10px;
+  padding: 20px 30px;
+  border: 2px solid rgb(54, 53, 53);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+  font-weight: bold;
+}
+.ico-ts,
+.ico-js {
+  padding: 20px;
+}

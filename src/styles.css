@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #34353a;
+    color: var(--frst);
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --frst: rgb(175, 72, 106);
+    --hr: rgb(239, 27, 97);
+    --thrd: #498188;
+    --frth: 34353a;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:lightgray;
+    font-weight: bold;
+}
