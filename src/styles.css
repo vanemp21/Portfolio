@@ -1,13 +1,15 @@
 body{
-    background-color: #34353a;
+    background-color: var(--bg2);
     color: var(--frst);
-    font-family: 'Roboto', sans-serif;
+ 
 }
 :root{
     --frst: rgb(175, 72, 106);
     --hr: rgb(239, 27, 97);
-    --thrd: #498188;
-    --frth: 34353a;
+    --bg1: rgb(61, 62, 66);
+    --bg2: rgb(49, 51, 59);
+    --p:lightgray;
+
 }
 .content{
     display: flex;
@@ -15,7 +17,7 @@ body{
     align-items: center;
 }
 h1{
-    color:lightgray;
+    color:var(--p);
     font-weight: bold;
 }
 h5{

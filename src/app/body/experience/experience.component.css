@@ -8,18 +8,29 @@ hr {
   display: flex;
   flex-direction: column;
 }
-.text-content {
+.text-content{
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 0.1fr 1fr;
-  color: lightgray;
+  color: var(--p);
   align-items: start;
   justify-content: start;
   margin: 0 10px;
 }
+.text-content-2{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  color: var(--p);
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+
+}
+.text-content-2 p{
+  margin-bottom: 0;
+}
 .company{
     font-weight: bold;
-
     font-size:18px;
 }
 .description{
@@ -34,16 +45,42 @@ hr {
   grid-row: 2;
   text-align: ce;
 }
-.vertical-line{
-    grid-row: span 2;
-    grid-column: 2;
-}
+
 .vertical-line {
+  grid-row: span 2;
+  grid-column: 2;
   width: 2px;
   height:320px;
   background-color: var(--frst);
   transform: rotate(180deg);
 }
+.vertical-line-2{
+  width: 2px;
+  height:120px;
+  background-color: var(--frst);
+  transform: rotate(180deg);
+}
 h5{
     margin-left:10px;
+}
+.buttons{
+  display: flex;
+gap:8px;
+ margin-left:15px;
+}
+.buttons button{
+color:var(--frst);
+padding:8px 10px;
+background-color: transparent;
+border:3px solid var(--frst);
+border-radius: 5px;
+font-weight: bold;
+font-size: 12px;
+}
+hr:last-of-type{
+  transform: rotate(0);
+  color:rgb(239, 27, 97);
+  border-style: solid; 
+border-width: 3px;
+margin:30px 20px;
 }

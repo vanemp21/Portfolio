@@ -2,6 +2,7 @@
 .body {
   display: flex;
   flex-direction: column;
+
 }
 .content {
   margin: 0 30px;
@@ -18,7 +19,7 @@ button {
   color: var(--frst);
 }
 p {
-  color: lightgray;
+  color: var(--p);
 }
 .text-container {
   font-family: "Signika Negative", sans-serif;
