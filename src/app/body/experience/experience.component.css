@@ -1,0 +1,49 @@
+hr {
+  transform: rotate(90deg);
+  color: rgb(239, 27, 97);
+  border-style: solid;
+  border-width: 1px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.text-content {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  color: lightgray;
+  align-items: start;
+  justify-content: start;
+  margin: 0 10px;
+}
+.company{
+    font-weight: bold;
+
+    font-size:18px;
+}
+.description{
+    font-size:15px;
+    margin-top:10px;
+}
+.company, .description{
+    padding-left:20px;
+}
+.description {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: ce;
+}
+.vertical-line{
+    grid-row: span 2;
+    grid-column: 2;
+}
+.vertical-line {
+  width: 2px;
+  height:320px;
+  background-color: var(--frst);
+  transform: rotate(180deg);
+}
+h5{
+    margin-left:10px;
+}

@@ -39,3 +39,10 @@ img {
 .ico-js {
   padding: 20px;
 }
+
+hr{
+    color:rgb(239, 27, 97);
+    border-style: solid; 
+  border-width: 3px;
+  margin:20px 20px;
+}

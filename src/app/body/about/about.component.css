@@ -1,21 +1,16 @@
-.content{
-    flex-direction: column;
+.content {
+  flex-direction: column;
 }
-.text-about{
-    text-align: justify;
-    padding:0 20px;
-    margin:20px 0;
-    color:lightgray;
-}
-h5{
-    font-weight: bold;
-    color:var(--frst);
-    padding:5px 0px;
+.text-about {
+  text-align: justify;
+  padding: 0 20px;
+  margin: 20px 0;
+  color: lightgray;
 }
 
-hr:last-of-type{
-    color:rgb(239, 27, 97);
-    border-style: solid; 
+hr:last-of-type {
+  color: rgb(239, 27, 97);
+  border-style: solid;
   border-width: 3px;
-
+  margin: 20px 0;
 }

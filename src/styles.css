@@ -18,3 +18,8 @@ h1{
     color:lightgray;
     font-weight: bold;
 }
+h5{
+    font-weight: bold;
+    color: var(--frst);
+    padding: 5px 0px;
+}
