@@ -8,22 +8,20 @@ hr {
 .content {
   display: flex;
   flex-direction: column;
-justify-content: start;
-align-items: start;
+  justify-content: start;
+  align-items: start;
 }
 
-.title-exp{
+.title-exp {
   display: flex;
   justify-content: center;
   align-items: center;
-width: 100%;
+  width: 100%;
 }
-
-
 
 .text-content {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
+  grid-template-columns: 0.75fr max-content 1fr;
   grid-template-rows: 0.1fr 1fr;
   color: var(--p);
   align-items: start;
@@ -98,30 +96,57 @@ h5 {
   font-size: 12px;
 }
 
-.text-content-3{
-  color:var(--p);
-display: flex;
-flex-direction: column;
-margin-left:15px;
-
+.text-content-3 {
+  color: var(--p);
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
 }
 
-.bi-star-fill{
-color:rgb(190, 181, 7);
+.bi-star-fill {
+  color: rgb(190, 181, 7);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 350px) {
+  .text-content {
+    grid-template-columns: 1fr max-content 1fr;
+  }
+}
+@media screen and (min-width: 360px) {
+  .text-content {
+    grid-template-columns: 0.85fr max-content 1fr;
+  }
+}
+@media screen and (min-width: 360px) {
+  .text-content {
+    grid-template-columns: 0.9fr max-content 1fr;
+  }
+}
+@media screen and (min-width: 390px) {
+  .text-content {
+    grid-template-columns: 1fr max-content 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-content,
+  .text-content-2,
+  .text-content-3,
+  .description,
+  .buttons button,
+  .date-exp {
+    font-size: 20px;
+  }
+  .company {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  p,
+  .buttons {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .description {
+    text-align: justify;
+  }
+}

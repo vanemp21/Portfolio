@@ -36,3 +36,19 @@ a{
     text-decoration: none;
     color:var(--p)
 }
+@media screen and (min-width:768px) {
+    a{
+        font-size:20px;
+    }
+    
+}
+@media screen and (min-width:912px) {
+    a{
+        font-size:28px;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+
+    
+}

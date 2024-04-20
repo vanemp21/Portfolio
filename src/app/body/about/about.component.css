@@ -1,7 +1,5 @@
 .content {
   flex-direction: column;
-
- 
 }
 .text-about {
   text-align: justify;
@@ -15,4 +13,39 @@ hr:last-of-type {
   border-style: solid;
   border-width: 3px;
   margin: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 853px) {
+  p {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 912px) {
+  p {
+    font-size: 28px;
+  }
+  h5 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  .text-about {
+    padding: 0 40px;
+  }
 }
