@@ -4,6 +4,7 @@ import { HeaderComponent } from '../shared/header/header.component';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { BodyComponent } from './body/body.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,

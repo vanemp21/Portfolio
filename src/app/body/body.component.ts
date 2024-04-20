@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 
+
 @Component({
   selector: 'app-body',
   standalone: true,
