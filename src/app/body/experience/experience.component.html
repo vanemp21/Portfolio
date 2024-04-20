@@ -1,5 +1,5 @@
 <div class="content">
-  <h1>Experiencia</h1>
+  <div class="title-exp"><h1>Experiencia</h1></div>
   <div class="labor">
     <h5>Laboral</h5>
     <div class="text-content">
@@ -17,44 +17,41 @@
 
   <div class="personal">
     <h5>Personal</h5>
-    <div class="text-content-2">
-      <p>Proyecto Heroes - <strong>ReactJs</strong></p>
+    <div class="text-content-2" *ngFor="let proyecto of proyectos">
+      <p>
+        {{ proyecto.nombre }} - <strong>{{ proyecto.tecnologia }}</strong>
+      </p>
       <div class="vertical-line-2"></div>
       <div class="buttons">
-        <button>Descripción</button><button>Github</button>
+        <button (click)="mostrarTexto(proyecto)">Descripción</button
+        ><a href="{{ proyecto.githubUrl }}" target="_blank"
+          ><button>Github</button></a
+        >
       </div>
 
-      <p>Proyecto Calendario - <strong>ReactJs</strong></p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button>Descripción</button><button>Github</button>
+      <div class="description-2" *ngIf="proyecto.mostrado">
+        <p [innerHTML]="proyecto.descripcion"></p>
       </div>
-
-      <p>Proyecto Agenda - <strong>ReactJs</strong></p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button>Descripción</button><button>Github</button>
-      </div>
-
-      <p>Proyecto Calculadora - <strong>Angular</strong></p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button>Descripción</button><button>Github</button>
-      </div>
-
-      <p>Proyecto Spotify - <strong>Angular</strong></p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button>Descripción</button><button>Github</button>
-      </div>
-
-      <p>Proyecto TFG - <strong>PHP</strong></p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button>Descripción</button><button>Github</button>
-      </div>
-      
     </div>
-    <hr>
   </div>
+
+  <div class="languages">
+    <h5>Idiomas</h5>
+    <div class="text-content-3">
+      <div class="level">
+        <ng-container *ngFor="let idioma of idiomas">
+          <div>{{ idioma.nombre }}</div>
+          <div [class]="'lvls' + idioma.puntuacion">
+            <i
+              class="bi bi-star-fill"
+              *ngFor="let _ of generarEstrellas(idioma.puntuacion)"
+            ></i>
+            <br><br>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+
+
 </div>

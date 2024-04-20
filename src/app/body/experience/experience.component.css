@@ -4,11 +4,24 @@ hr {
   border-style: solid;
   border-width: 1px;
 }
+
 .content {
   display: flex;
   flex-direction: column;
+justify-content: start;
+align-items: start;
 }
-.text-content{
+
+.title-exp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+}
+
+
+
+.text-content {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 0.1fr 1fr;
@@ -17,28 +30,34 @@ hr {
   justify-content: start;
   margin: 0 10px;
 }
-.text-content-2{
+.text-content-2 {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
+
   color: var(--p);
   align-items: center;
   justify-content: center;
   margin: 0 10px;
-
 }
-.text-content-2 p{
+.text-content-2 p {
   margin-bottom: 0;
 }
-.company{
-    font-weight: bold;
-    font-size:18px;
+.description-2 {
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 15px;
 }
-.description{
-    font-size:15px;
-    margin-top:10px;
+.company {
+  font-weight: bold;
+  font-size: 18px;
 }
-.company, .description{
-    padding-left:20px;
+.description {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.company,
+.description {
+  padding-left: 20px;
 }
 .description {
   grid-column: 3;
@@ -50,37 +69,59 @@ hr {
   grid-row: span 2;
   grid-column: 2;
   width: 2px;
-  height:320px;
+  height: 320px;
   background-color: var(--frst);
   transform: rotate(180deg);
 }
-.vertical-line-2{
+.vertical-line-2 {
   width: 2px;
-  height:120px;
+  height: 120px;
   background-color: var(--frst);
   transform: rotate(180deg);
 }
-h5{
-    margin-left:10px;
+h5 {
+  margin-left: 10px;
+  margin-bottom: 15px;
 }
-.buttons{
+.buttons {
   display: flex;
-gap:8px;
- margin-left:15px;
+  gap: 8px;
+  margin-left: 15px;
 }
-.buttons button{
-color:var(--frst);
-padding:8px 10px;
-background-color: transparent;
-border:3px solid var(--frst);
-border-radius: 5px;
-font-weight: bold;
-font-size: 12px;
+.buttons button {
+  color: var(--frst);
+  padding: 8px 10px;
+  background-color: transparent;
+  border: 3px solid var(--frst);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
 }
-hr:last-of-type{
-  transform: rotate(0);
-  color:rgb(239, 27, 97);
-  border-style: solid; 
-border-width: 3px;
-margin:30px 20px;
+
+.text-content-3{
+  color:var(--p);
+display: flex;
+flex-direction: column;
+margin-left:15px;
+
 }
+
+.bi-star-fill{
+color:rgb(190, 181, 7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
