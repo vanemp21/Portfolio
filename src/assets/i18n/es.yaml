@@ -1,6 +1,8 @@
 {
-    "hello": "Hola",
-    "welcome": "¡Bienvenido a mi aplicación!",
+    "Inicio":"Inicio",
+    "Sobre mi":"Sobre mi",
+    "Skills":"Skills",
+    "Contacto":"Contacto",
     "Desarrolladora Front-end Angular":"Desarrolladora Front-end Angular",
     "Contáctame":"Contáctame",
     "Mi comienzo":"Mi comienzo",
@@ -11,7 +13,37 @@
     "Mi futuro texto":"Actualmente estoy en busca de empleo y puedo asegurar que la oportunidad que me brinde la futura empresa, ganará igual conmigo que yo con ellos. Soy una persona sencilla, pero con un hambre de éxito impresionante, por lo que me hace aprender y mejorar día a día. El trabajo si lo disfrutas no es trabajo, por lo que es mi caso y me encanta buscar siempre información de cómo funciona las tecnologías más usadas, nuevas o si estoy en una empresa, me gusta buscar información de cómo mejorar en mi puesto de trabajo. Suena un poco repipi, pero puedo dar fe que disfruto desarrollando y es a lo que quiero dedicarme. Quizás no todo lo sepa en el mundo del desarrollo debido a mi inexperiencia, pero creeme que soy una persona resolutiva y lo que no se, lo acabo consiguiendo porque no tengo dificultad en encontrar solución a los problemas.",
     "Para finalizar":"Para finalizar",
     "Para finalizar texto":"Ya de últimas, simplemente quiero destacar que soy una persona empática y honesta, con habilidades interpersonales, con creatividad y con buena adaptación de trabajo en equipo. Si quieres descubrir más sobre mi, te invito a que me contactes aunque sea para mandarme un saludo. Gracias por tu tiempo, valoro cada segundo que te has tomado en leerme.",
-    
+    "Gracias por escribirme":"Gracias por escribirme",
+    "Correo":"Correo",
+    "Escribe tu correo":"Escribe tu correo",
+    "Mensaje":"Mensaje",
+    "Escribe aquí tu mensaje":"Escribe aquí tu mensaje",
+    "Enviar":"Enviar",
+    "Experiencia":"Experiencia",
+    "Laboral":"Laboral",
+    "Laboral texto":"Desarrollé la parte front responsiva y dinámica con un enfoque en la accesibilidad y la usabilidad con Drupal, además de gestión de módulos y plantillas Twig custom para el ayuntamiento de Palencia y la diputación de Sevilla. También hice correcciones en proyectos de Angular",
+    "Personal":"Personal",
+    "Proyecto Héroes":"Proyecto Héroes",
+    "Proyecto Calendario":"Proyecto Calendario",
+    "Proyecto Agenda":"Proyecto Agenda",
+    "Proyecto Calculadora":"Proyecto Calculadora",
+    "Proyecto Spotify":"Proyecto Spotify",
+    "Proyecto TFG":"Proyecto TFG",
+    "Idiomas":"Idiomas",
+    "Español":"Español",
+    "Inglés":"Inglés",
+    "Valenciano":"Valenciano",
+    "Catalán":"Catalán",
+    "Alemán":"Alemán",
+    "Descripción":"Descripción",
+    "proyectoHeroesDescripcion":"Proyecto donde implementé funcionalidades de búsqueda y login. Esta aplicación permite a los usuarios utilizar una búsqueda y descripción avanzada de los héroes, donde se ha utilizado la libreria de Tailwind para los estilos",
+    "proyectoCalendarioDescripcion":"Proyecto que utiliza Firebase como base de datos, donde implementé consultas de añadir, eliminar y editar elementos dinámicamente. Esta aplicación permite a los usuarios agregar nuevos elementos, eliminar los existentes y actualizar la información de los elementos ya almacenados en la base de datos Firebase, todo en tiempo real, utilizando la libreria de Tailwind para los estilos.",
+    "proyectoAgendaDescripcion":"Proyecto que utiliza Firebase como base de datos, donde implementé consultas de añadir, eliminar y editar elementos dinámicamente. Esta aplicación permite a los usuarios agregar nuevos elementos, eliminar los existentes y actualizar la información de los elementos ya almacenados en la base de datos Firebase, todo en tiempo real, utilizando la libreria de Tailwind para los estilos.",
+    "proyectoCalculadoraDescripcion":"Proyecto que hace cálculos matemáticos",
+    "proyectoSpotifyDescripcion":"Proyecto de música estilo Spotify que permite la reproducción de música, búsqueda de canciones con Login y Cookies",
+    "proyectoTfgDescripcion":"Proyecto sobre un restaurante que hace consultas a la base de datos MySQL para añadir , editar, eliminar pedidos y al finalizar tiene la opción de crear factura que se visualizará en PDF mediante la librería FPDF."
+
+
 
   }
   

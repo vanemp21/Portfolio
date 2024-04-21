@@ -6,20 +6,17 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
-
 @Component({
   selector: 'app-body',
   standalone: true,
-  imports: [AboutComponent, ContactComponent, ExperienceComponent, SkillsComponent, TranslateModule],
+  imports: [
+    AboutComponent,
+    ContactComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    TranslateModule,
+  ],
   templateUrl: './body.component.html',
-  styleUrl: './body.component.css'
+  styleUrl: './body.component.css',
 })
-export class BodyComponent {
-  constructor(private translate: TranslateService) {
-    translate.setDefaultLang('es');
-  }
-
-  changeLanguage(lang: string) {
-    this.translate.use(lang);
-  }
-}
+export class BodyComponent {}

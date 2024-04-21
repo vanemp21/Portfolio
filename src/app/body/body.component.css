@@ -2,11 +2,10 @@
 .body {
   display: flex;
   flex-direction: column;
-
 }
 .content {
   margin: 0 30px;
-  min-height:430px;
+  min-height: 430px;
 }
 hr {
   color: rgb(239, 27, 97);
@@ -37,50 +36,51 @@ button {
   padding: 10px 20px;
   font-weight: bold;
   background-color: transparent;
+  width: max-content;
 }
 
 img {
- border-radius: 10px;
+  border-radius: 10px;
   border: 2px solid var(--p);
   width: 40%;
-  margin-left:10px;
+  margin-left: 10px;
 }
-@media screen and (min-width:768px) {
-  h1{
+@media screen and (min-width: 768px) {
+  h1 {
     font-size: 40px;
   }
-  img{
+  img {
     width: 30%;
     height: auto;
   }
-  p, a{
-    font-size:20px;
+  p,
+  a {
+    font-size: 20px;
   }
-  
 }
-@media screen and (min-width:912px) {
-  h1{
+@media screen and (min-width: 912px) {
+  h1 {
     font-size: 46px;
   }
-  img{
+  img {
     width: 40%;
     height: auto;
   }
-  p, a{
-    font-size:25px;
+  p,
+  a {
+    font-size: 25px;
   }
-  
 }
-@media screen and (min-width:1024px) {
-  h1{
+@media screen and (min-width: 1024px) {
+  h1 {
     font-size: 50px;
   }
-  img{
+  img {
     width: 25%;
     height: auto;
   }
-  p, a{
-    font-size:25px;
+  p,
+  a {
+    font-size: 25px;
   }
-  
 }

@@ -72,7 +72,8 @@ small:first-of-type {
   h5 {
     font-size: 20px;
   }
-}@media screen and (min-width: 853px) {
+}
+@media screen and (min-width: 853px) {
   small {
     font-size: 22px;
   }

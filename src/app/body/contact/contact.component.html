@@ -1,19 +1,30 @@
 <hr />
 <div class="content" id="contact">
-  <h1>Contáctame</h1>
-  <small>¡Gracias por escribirme!</small>
+  <h1>{{ "Contáctame" | translate }}</h1>
+  <small>¡{{ "Gracias por escribirme" | translate }}!</small>
   <form action="https://formspree.io/f/mqkrwbqp" method="POST">
-    <div class="label"><h5 for="email">Correo </h5><p>*</p></div>
-    <input type="email" name="email" placeholder="Escribe tu correo" required />
-    <div class="label"><h5 for="message">Mensaje </h5> <p>*</p></div>
+    <div class="label">
+      <h5 for="email">{{ "Correo" | translate }}</h5>
+      <p>*</p>
+    </div>
+    <input
+      type="email"
+      name="email"
+      placeholder="{{ 'Escribe tu correo' | translate }}"
+      required
+    />
+    <div class="label">
+      <h5 for="message">{{ "Mensaje" | translate }}</h5>
+      <p>*</p>
+    </div>
     <textarea
       name="mensaje"
       id="message"
       cols="30"
       rows="10"
-      placeholder="Escribe aquí tu mensaje"
+      placeholder="{{ 'Escribe aquí tu mensaje' | translate }}"
       required
     ></textarea>
-    <button type="submit" class="submit">Enviar</button>
+    <button type="submit" class="submit">{{ "Enviar" | translate }}</button>
   </form>
 </div>

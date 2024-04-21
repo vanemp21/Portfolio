@@ -1,16 +1,14 @@
 <div class="traduction">
   <i class="bi bi-globe2"></i>
-<select #languageSelector (change)="changeLanguage(languageSelector.value)">
-  <i class="sl-flag flag-de"></i> <option value="es"> Español</option>
-  <option value="en"> English</option>
-</select>
+  <select #languageSelector (change)="changeLanguage(languageSelector.value)">
+    <i class="sl-flag flag-de"></i>
+    <option value="es">Español</option>
+    <option value="en">English</option>
+  </select>
 </div>
-
 
 <header><app-header /></header>
 <div class="container">
-
-<div class="body"><app-body /></div>
+  <div class="body"><app-body /></div>
 </div>
 <footer><app-footer /></footer>
-

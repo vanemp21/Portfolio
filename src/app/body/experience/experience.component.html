@@ -1,58 +1,59 @@
 <div class="content">
   <div class="grid-template">
-  <div class="title-exp"><h1>Experiencia</h1></div>
-  <div class="labor">
-    <h5>Laboral</h5>
-    <div class="text-content">
-      <div class="date-exp">01/12/23 - 05/04/24</div>
-      <div class="vertical-line"></div>
-      <div class="company">TicSmart S.L</div>
-      <div class="description">
-        Desarrolladora front-end en Drupal, para el ayuntamiento de Palencia y
-        la diputación de Sevilla con el que usé PHP, plantillas Twig, Composer,
-        Drush, HTML, JavaScript, CSS, Postgress, GitLab, Trello, Testing con
-        Cypress y algunas correcciones de Angular
+    <div class="title-exp">
+      <h1>{{ "Experiencia" | translate }}</h1>
+    </div>
+    <div class="labor">
+      <h5>{{ "Laboral" | translate }}</h5>
+      <div class="text-content">
+        <div class="date-exp">01/12/23 - 05/04/24</div>
+        <div class="vertical-line"></div>
+        <div class="company">TicSmart S.L</div>
+        <div class="description">
+          {{ "Laboral texto" | translate }}
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="personal">
-    <h5>Personal</h5>
-    <div class="text-content-2" *ngFor="let proyecto of proyectos">
-      <p>
-        {{ proyecto.nombre }} - <strong>{{ proyecto.tecnologia }}</strong>
-      </p>
-      <div class="vertical-line-2"></div>
-      <div class="buttons">
-        <button (click)="mostrarTexto(proyecto)">Descripción</button
-        ><a href="{{ proyecto.githubUrl }}" target="_blank"
-          ><button>Github</button></a
+    <div class="personal">
+      <h5>{{ "Personal" | translate }}</h5>
+      <div class="text-content-2" *ngFor="let proyecto of proyectos">
+        <p>
+          {{ proyecto.nombre | translate }} -
+          <strong>{{ proyecto.tecnologia }}</strong>
+        </p>
+        <div class="vertical-line-2"></div>
+        <div class="buttons">
+          <button (click)="mostrarTexto(proyecto)">Descripción</button
+          ><a href="{{ proyecto.githubUrl }}" target="_blank"
+            ><button>Github</button></a
+          >
+        </div>
+
+        <div
+          class="description-2"
+          *ngIf="proyecto.mostrado && proyecto.descripcionKey"
         >
-      </div>
-
-      <div class="description-2" *ngIf="proyecto.mostrado">
-        <p [innerHTML]="proyecto.descripcion"></p>
+          <p>{{ proyecto.descripcionKey | translate }}</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
   <div class="languages">
-    <h5>Idiomas</h5>
+    <h5>{{ "Idiomas" | translate }}</h5>
     <div class="text-content-3">
       <div class="level">
         <ng-container *ngFor="let idioma of idiomas">
-          <div>{{ idioma.nombre }}</div>
+          <div>{{ idioma.nombre | translate }}</div>
           <div [class]="'lvls' + idioma.puntuacion">
             <i
               class="bi bi-star-fill"
               *ngFor="let _ of generarEstrellas(idioma.puntuacion)"
             ></i>
-            <br><br>
+            <br /><br />
           </div>
         </ng-container>
       </div>
     </div>
   </div>
-
-
 </div>
