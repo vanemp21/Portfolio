@@ -23,5 +23,26 @@ header {
   justify-content: center;
   background-color: var(--bg2);
 }
-@media screen and (min-width: 912px) {
+
+
+/*..................*/
+.traduction{
+  display: flex;
+  justify-content: end;
+  padding:10px 20px;
+  align-items: center;
+  gap:7px;
+
+}
+select{
+  border-radius: 10px;
+  font-size:12px;
+  color:var(--frst);
+  background-color: var(--bg2);
+  padding:5px 10px;
+}
+.bi-globe2{
+  font-size:20px;
+  
+
 }

@@ -7,9 +7,10 @@ import { AppComponent } from './app/app.component';
 import { HTTP_INTERCEPTORS, withInterceptorsFromDi, provideHttpClient } from '@angular/common/http';
 
 import { provideRouter } from '@angular/router';
+import { provideTranslation } from './app/providers/translation';
 
 bootstrapApplication(AppComponent, {
-  providers:[provideHttpClient(withInterceptorsFromDi())]
+  providers:[provideHttpClient(), provideTranslation()]
 })
   .catch((err) => console.error(err));
 
