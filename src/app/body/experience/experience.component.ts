@@ -5,13 +5,12 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [NgFor, NgIf, TranslateModule],
+  imports: [NgFor, NgIf, TranslateModule, CommonModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })
-export class ExperienceComponent {
+export class ExperienceComponent{
   mostrar: boolean = false;
-
   proyectos = [
     {
       id: 'proyectoHeroes',
@@ -19,6 +18,7 @@ export class ExperienceComponent {
       tecnologia: 'ReactJs',
       descripcionKey: 'proyectoHeroesDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-heroes--ReactJs',
+      etiquetas: ['ReactJs','CSS','HTML','Firebase','Tailwind','JavaScript'],
       mostrado: false,
     },
     {
@@ -27,6 +27,7 @@ export class ExperienceComponent {
       tecnologia: 'ReactJs',
       descripcionKey: 'proyectoCalendarioDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-Calendario--ReacJS',
+      etiquetas: ['ReactJs','CSS','HTML','Tailwind','JavaScript','Firebase'],
       mostrado: false,
     },
     {
@@ -35,6 +36,7 @@ export class ExperienceComponent {
       tecnologia: 'ReactJs',
       descripcionKey: 'proyectoAgendaDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-journal--ReactJs',
+      etiquetas: ['ReactJs','CSS','HTML','Tailwind','JavaScript','Firebase'],
       mostrado: false,
     },
     {
@@ -43,6 +45,7 @@ export class ExperienceComponent {
       tecnologia: 'Angular',
       descripcionKey: 'proyectoCalculadoraDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-Calculadora--Angular',
+      etiquetas: ['Angular','TypeScript','Bootstrap','CSS','HTML'],
       mostrado: false,
     },
     {
@@ -51,6 +54,7 @@ export class ExperienceComponent {
       tecnologia: 'Angular',
       descripcionKey: 'proyectoSpotifyDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-Spotify--Angular',
+      etiquetas: ['Angular','TypeScript','Bootstrap','CSS','HTML'],
       mostrado: false,
     },
     {
@@ -59,6 +63,7 @@ export class ExperienceComponent {
       tecnologia: 'PHP',
       descripcionKey: 'proyectoTfgDescripcion',
       githubUrl: 'https://github.com/vanemp21/Proyecto-TFG--PHP',
+      etiquetas: ['PHP','JavaScript','Bootstrap','CSS','HTML','MySQL'],
       mostrado: false,
     },
   ];
@@ -78,5 +83,7 @@ export class ExperienceComponent {
   mostrarTexto(proyecto: any) {
     proyecto.mostrado = !proyecto.mostrado;
   }
+
+  
   constructor(private translateService: TranslateService) {}
 }

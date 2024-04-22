@@ -6,12 +6,12 @@
     <div class="labor">
       <h5>{{ "Laboral" | translate }}</h5>
       <div class="text-content">
-        <div class="date-exp">01/12/23 - 05/04/24</div>
+        <div class="date-exp">01/12/23  05/04/24</div>
         <div class="vertical-line"></div>
-        <div class="company">TicSmart S.L</div>
-        <div class="description">
-          {{ "Laboral texto" | translate }}
-        </div>
+        <div class="company"><h6>TicSmart S.L</h6>  <div class="description">{{ "Laboral texto" | translate }}</div></div>
+       
+         
+
       </div>
     </div>
 
@@ -19,12 +19,14 @@
       <h5>{{ "Personal" | translate }}</h5>
       <div class="text-content-2" *ngFor="let proyecto of proyectos">
         <p>
-          {{ proyecto.nombre | translate }} -
-          <strong>{{ proyecto.tecnologia }}</strong>
+          {{ proyecto.nombre | translate }} 
+   
+          <small class="tags"> {{proyecto.etiquetas.join(' ')}}</small>
         </p>
+   
         <div class="vertical-line-2"></div>
         <div class="buttons">
-          <button (click)="mostrarTexto(proyecto)">Descripción</button
+          <button (click)="mostrarTexto(proyecto)">{{'Descripción'|translate}}</button
           ><a href="{{ proyecto.githubUrl }}" target="_blank"
             ><button>Github</button></a
           >

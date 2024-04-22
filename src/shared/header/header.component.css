@@ -1,54 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    padding:20px 0;
-    font-weight: bold;
-    color:var(--p);
-    width: max-content;
-    gap:14px;
-
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  padding: 20px 0;
+  font-weight: bold;
+  color: var(--p);
+  width: max-content;
+  gap: 14px;
 }
 
-.container{
-    font-family: "Signika Negative", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size:15px;
-    width: 100%; 
-
-   
+.container {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  width: 100%;
 }
-ul li{
-width: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul li {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-a{
-    text-decoration: none;
-    color:var(--p)
+a {
+  text-decoration: none;
+  color: var(--p);
 }
-@media screen and (min-width:768px) {
-    a{
-        font-size:20px;
+@media screen and (min-width: 768px) {
+  a {
+    font-size: 20px;
+  }
+  ul{
+    gap:20px;
+}
+}
+@media screen and (min-width: 912px) {
+  a {
+    font-size: 28px;
+  }
+  ul{
+    gap:25px;
+}
+}
+@media screen and (min-width: 1024px) {
+    ul{
+        gap:30px;
     }
-    
-}
-@media screen and (min-width:912px) {
     a{
-        font-size:28px;
+        font-size:22px;
     }
-    
-}
-@media screen and (min-width:1024px) {
-
-    
 }
