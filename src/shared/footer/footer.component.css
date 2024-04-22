@@ -2,9 +2,12 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 10px;
+
   padding-top: 10px;
   width: 100%;
+  border-top: 2px solid var(--frst);
+  background-color: var(--bg2);
+  border-bottom: 14px solid var(--bg2);
 }
 .ico-github,
 .ico-linkedin,
@@ -15,6 +18,22 @@
   background-color: transparent;
   padding: 5px 10px;
   border-radius: 10px;
+}
+.ico-top {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ico-top i {
+  border: 3px solid var(--frst);
+  font-size: 25px;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  background-color: var(--bg2);
+  margin-bottom: 5px;
 }
 
 a {
