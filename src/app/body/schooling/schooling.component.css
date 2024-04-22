@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+h1,
+h5 {
+  padding-left: 2rem;
+}
+ul {
+  list-style: none;
+}
+.text-content {
+  color: var(--p);
+}
+
+h5 {
+  margin-top: 30px;
+}
+hr {
+  color: rgb(239, 27, 97);
+  border-style: solid;
+  border-width: 3px;
+  margin: 20px 20px;
+  margin-bottom: 15px;
+}
+li {
+  padding-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  h5 {
+    font-size: 28px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 912px) {
+  h5 {
+    font-size: 33px;
+  }
+  li {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h5 {
+    font-size: 33px;
+  }
+  li {
+    font-size: 18px;
+  }
+}

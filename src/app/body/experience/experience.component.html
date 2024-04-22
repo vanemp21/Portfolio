@@ -9,9 +9,6 @@
         <div class="date-exp">01/12/23  05/04/24</div>
         <div class="vertical-line"></div>
         <div class="company"><h6>TicSmart S.L</h6>  <div class="description">{{ "Laboral texto" | translate }}</div></div>
-       
-         
-
       </div>
     </div>
 
@@ -26,9 +23,9 @@
    
         <div class="vertical-line-2"></div>
         <div class="buttons">
-          <button (click)="mostrarTexto(proyecto)">{{'Descripción'|translate}}</button
+          <button (click)="mostrarTexto(proyecto)" class="border-transition"><span>{{'Descripción'|translate}}</span></button
           ><a href="{{ proyecto.githubUrl }}" target="_blank"
-            ><button>Github</button></a
+            ><button class="border-transition"><span>Github</span></button></a
           >
         </div>
 
