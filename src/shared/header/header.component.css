@@ -13,7 +13,6 @@ ul {
   color: var(--p);
   width: max-content;
   gap: 14px;
-
 }
 
 .container {
@@ -29,46 +28,44 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 a {
   text-decoration: none;
   color: var(--p);
 }
 
-li{
-    border-bottom: 2px solid var(--bg2);
-    border-top: 2px solid var(--bg2);
-    padding:5px 0;
+li {
+  border-bottom: 2px solid var(--bg2);
+  border-top: 2px solid var(--bg2);
+  padding: 5px 0;
 }
-li:hover{
-    border-bottom: 2px solid white;
-    border-top:2px solid white;
-   border-radius: 5px;
+li:hover {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
   a {
     font-size: 20px;
   }
-  ul{
-    gap:20px;
-}
+  ul {
+    gap: 20px;
+  }
 }
 @media screen and (min-width: 912px) {
   a {
     font-size: 28px;
   }
-  ul{
-    gap:25px;
-}
+  ul {
+    gap: 25px;
+  }
 }
 @media screen and (min-width: 1024px) {
-    ul{
-        gap:30px;
-    }
-    a{
-        font-size:22px;
-    }
+  ul {
+    gap: 30px;
+  }
+  a {
+    font-size: 22px;
+  }
 }
-

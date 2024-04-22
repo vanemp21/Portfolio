@@ -1,7 +1,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin:10px;
+  margin: 10px;
 }
 .body {
   display: flex;
@@ -42,42 +42,37 @@ select {
 .bi-globe2 {
   font-size: 20px;
 }
-@media screen and  (min-width:768px){
-  .content{
+@media screen and (min-width: 768px) {
+  .content {
     margin: 10px 40px;
   }
-  
 }
-@media screen and  (min-width:915px){
-  .content{
+@media screen and (min-width: 915px) {
+  .content {
     margin: 10px 45px;
   }
-  
 }
-@media screen and  (min-width:1024px){
-  .content{
+@media screen and (min-width: 1024px) {
+  .content {
     margin: 10px 50px;
   }
-  select{
-    font-size:23px;
-}
-.bi-globe2 {
-  font-size:25px;
-}
-    
-  
+  select {
+    font-size: 23px;
+  }
+  .bi-globe2 {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 1025px) {
-  .content{
+  .content {
     margin: 10px 100px;
   }
-  select{
-    font-size:18px;
-}
+  select {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1300px) {
-  .content{
+  .content {
     margin: 10px 400px;
   }
-
 }

@@ -144,39 +144,37 @@ h5 {
 }
 
 .buttons button {
-
-	overflow: hidden;
-	position: relative;
+  overflow: hidden;
+  position: relative;
   border-radius: 10px;
 }
 
 .buttons button span {
-	z-index: 20;
+  z-index: 20;
 }
 
 .buttons button:after {
-	background: #fff;
-	content: "";
-	height: 155px;
-	left: -75px;
-	opacity: 0.2;
-	position: absolute;
-	top: -50px;
-	-webkit-transform: rotate(35deg);
-	transform: rotate(35deg);
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
   transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
-	width: 50px;
-	z-index: 1;
-	transition-delay: 0.4s;
+  width: 50px;
+  z-index: 1;
+  transition-delay: 0.4s;
 }
 
 .buttons button:hover:after {
-	left: 120%;
+  left: 120%;
   transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 @media screen and (min-width: 340px) {
-
 }
 .vertical-line {
   margin-left: 5px;
@@ -226,7 +224,6 @@ h5 {
   }
 }
 @media screen and (min-width: 412px) {
-
 }
 @media screen and (min-width: 540px) {
   .buttons {
@@ -235,11 +232,9 @@ h5 {
   }
 }
 
-
 .vertical-line {
   margin-left: 0px;
 }
-
 
 @media screen and (min-width: 768px) {
   .text-content,
@@ -255,9 +250,7 @@ h5 {
     margin-left: 15px;
   }
   .description-2 p {
-
     padding-right: 0;
-
   }
   h5 {
     font-size: 28px;
@@ -285,8 +278,6 @@ h5 {
   .text-content-2 small {
     font-size: 18px;
   }
-
-
 }
 @media screen and (min-width: 853px) {
   .text-content,
@@ -321,10 +312,9 @@ h5 {
   .vertical-line-2 {
     height: 180px;
   }
-  h5{
-    font-size:33px;
+  h5 {
+    font-size: 33px;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -362,12 +352,10 @@ h5 {
     font-size: 18px;
     display: flex;
     padding-right: 0;
-  
   }
   .personal {
     padding: 0 70px;
   }
 }
 @media screen and (min-width: 1280px) {
-
 }
