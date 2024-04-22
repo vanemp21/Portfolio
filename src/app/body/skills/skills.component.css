@@ -1,64 +1,67 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-img {
-  width: 60px;
-  height: auto;
-  border-radius: 30px;
-}
-.ico-ts img,
-.ico-mysql img,
-.ico-drupal img {
-  border: 2px solid white;
-}
-.skills {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  gap: 25px;
-}
-
-[class^="ico-"] {
-  background-color: var(--bg1);
-  border-radius: 10px;
-  padding: 20px 30px;
-  border: 2px solid rgb(59, 58, 58);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  color: var(--p);
-  font-weight: bold;
-}
-.ico-ts,
-.ico-js {
-  padding: 20px;
-}
-
-hr {
-  color: rgb(239, 27, 97);
-  border-style: solid;
-  border-width: 3px;
-  margin: 20px 20px;
-}
-@media screen and (min-width: 768px) {
+  display:flex;
+  flex-direction:column;
+  gap:20px
+  }
+  
+  img {
+  width:60px;
+  height:auto;
+  border-radius:30px
+  }
+  
+  .ico-ts img,.ico-mysql img,.ico-drupal img {
+  border:2px solid #fff
+  }
+  
   .skills {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display:grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns:1fr 1fr;
+  gap:25px
   }
-}
-@media screen and (min-width: 820px) {
+  
   [class^="ico-"] {
-    font-size: 20px;
+  background-color:var(--bg1);
+  border-radius:10px;
+  padding:20px 30px;
+  border:2px solid #3b3a3a;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  color:var(--p);
+  font-weight:700
   }
-}
-@media screen and (min-width: 1024px) {
+  
+  .ico-ts,.ico-js {
+  padding:20px
+  }
+  
+  hr {
+  color:#ef1b61;
+  border-style:solid;
+  border-width:3px;
+  margin:20px
+  }
+  
+  @media screen and (min-width: 768px) {
+  .skills {
+  grid-template-columns:1fr 1fr 1fr 1fr
+  }
+  }
+  
+  @media screen and (min-width: 820px) {
   [class^="ico-"] {
-    font-size: 30px;
-    font-weight: 400;
+  font-size:20px
   }
-}
+  }
+  
+  @media screen and (min-width: 1024px) {
+  [class^="ico-"] {
+  font-size:30px;
+  font-weight:400
+  }
+  }

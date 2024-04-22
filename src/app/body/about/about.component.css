@@ -1,59 +1,71 @@
 .content {
-  flex-direction: column;
-}
-.text-about {
-  text-align: justify;
-  padding: 0 20px;
-  margin: 20px 0;
-  color: var(--p);
-}
-
-hr:last-of-type {
-  color: rgb(239, 27, 97);
-  border-style: solid;
-  border-width: 3px;
-  margin: 20px 0;
-}
-@media screen and (min-width: 768px) {
-  p {
-    font-size: 20px;
+  flex-direction:column
   }
-  h5 {
-    font-size: 25px;
-  }
-}
-@media screen and (min-width: 853px) {
-  p {
-    font-size: 25px;
-  }
-  h5 {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 912px) {
-  p {
-    font-size: 28px;
-  }
-  h5 {
-    font-size: 35px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  p {
-    font-size: 27px;
-  }
-  h5 {
-    font-size: 35px;
-  }
+  
   .text-about {
-    padding: 0 40px;
+  text-align:justify;
+  padding:0 20px;
+  margin:20px 0;
+  color:var(--p)
   }
-}
-@media screen and (min-width: 1280px) {
+  
+  hr:last-of-type {
+  color:#ef1b61;
+  border-style:solid;
+  border-width:3px;
+  margin:20px 0
+  }
+  
+  @media screen and (min-width: 768px) {
   p {
-    font-size: 17px;
+  font-size:20px
   }
+  
   h5 {
-    font-size: 25px;
+  font-size:25px
   }
-}
+  }
+  
+  @media screen and (min-width: 853px) {
+  p {
+  font-size:25px
+  }
+  
+  h5 {
+  font-size:30px
+  }
+  }
+  
+  @media screen and (min-width: 912px) {
+  p {
+  font-size:28px
+  }
+  
+  h5 {
+  font-size:35px
+  }
+  }
+  
+  @media screen and (min-width: 1024px) {
+  p {
+  font-size:27px
+  }
+  
+  h5 {
+  font-size:35px
+  }
+  
+  .text-about {
+  padding:0 40px
+  }
+  }
+  
+  @media screen and (min-width: 1280px) {
+  p {
+  font-size:17px
+  }
+  
+  h5 {
+  font-size:25px
+  }
+  }

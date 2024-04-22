@@ -1,343 +1,352 @@
 hr {
-  transform: rotate(90deg);
-  color: rgb(239, 27, 97);
-  border-style: solid;
-  border-width: 1px;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-}
-.title-exp {
-  display: flex;
-  justify-content: center;
-}
-.text-content {
-  display: grid;
-  grid-template-columns: 0.75fr max-content 0.8fr;
-  color: var(--p);
-  margin: 0 10px 25px 10px;
-}
-.labor {
-  margin-top: 20px;
-}
-
-.text-content-2 {
-  display: grid;
-  grid-template-columns: 0.6fr max-content 0.6fr;
-  color: var(--p);
-  align-items: center;
-  justify-content: center;
-}
-
-.tags {
-  font-size: 12px;
-  color: var(--frst);
-}
-
-.text-content-2 p {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
-.description-2 {
-  grid-column: 3;
-  grid-row: 2;
-  margin-left: 20px;
-}
-
-.description {
-  font-size: 15px;
-  margin-top: 10px;
-  grid-column: 3;
-  grid-row: 2;
-  font-weight: lighter;
-}
-.company {
-  padding-left: 15px;
-}
-
-.vertical-line {
-  grid-column: 2;
-  width: 2px;
-  height: 320px;
-  margin-left: 10px;
-  background-color: var(--frst);
-  transform: rotate(180deg);
-}
-.vertical-line-2 {
-  width: 2px;
-  height: 120px;
-  background-color: var(--frst);
-  transform: rotate(180deg);
-}
-h5 {
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-}
-.buttons {
-  display: flex;
-  row-gap: 10px;
-  margin-left: 30px;
-  flex-direction: column;
-}
-
-.buttons button {
-  color: var(--frst);
-  padding: 8px 10px;
-  background-color: transparent;
-  border: 3px solid var(--frst);
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 12px;
-  width: max-content;
-}
-.buttons a button {
-  padding: 8px 24px;
-}
-.description-2 {
-  font-weight: lighter;
-}
-.languages h5 {
-  margin-top: 20px;
-}
-.text-content-3 {
-  color: var(--p);
-  display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-  justify-content: center;
-  align-items: center;
-}
-.level div {
-  text-align: center;
-}
-.bi-star-fill {
-  color: rgb(190, 181, 7);
-}
-.languages {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.buttons button {
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
-}
-
-.buttons button span {
-  z-index: 20;
-}
-
-.buttons button:after {
-  background: #fff;
-  content: "";
-  height: 155px;
-  left: -75px;
-  opacity: 0.2;
-  position: absolute;
-  top: -50px;
-  -webkit-transform: rotate(35deg);
-  transform: rotate(35deg);
-  transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
-  width: 50px;
-  z-index: 1;
-  transition-delay: 0.4s;
-}
-
-.buttons button:hover:after {
-  left: 120%;
-  transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-
-@media screen and (min-width: 340px) {
-}
-.vertical-line {
-  margin-left: 5px;
-}
-@media screen and (min-width: 350px) {
+  transform:rotate(90deg);
+  color:#ef1b61;
+  border-style:solid;
+  border-width:1px
+  }
+  
+  .content {
+  display:flex;
+  flex-direction:column
+  }
+  
+  .title-exp {
+  display:flex;
+  justify-content:center
+  }
+  
   .text-content {
-    display: flex;
-    justify-content: end;
-    align-items: end;
+  display:grid;
+  grid-template-columns:0.75fr max-content 0.8fr;
+  color:var(--p);
+  margin:0 10px 25px
   }
-  .date-exp {
-    padding-right: 10px;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    text-align: center;
+  
+  .text-content-2 {
+  display:grid;
+  grid-template-columns:0.6fr max-content 0.6fr;
+  color:var(--p);
+  align-items:center;
+  justify-content:center
   }
-}
-@media screen and (min-width: 360px) {
-  .text-content {
-    display: grid;
-    grid-template-columns: 0.75fr max-content 0.75fr;
-    justify-content: start;
-    align-items: start;
-    padding-right: 5px;
+  
+  .tags {
+  font-size:12px;
+  color:var(--frst)
   }
-  .date-exp {
-    padding-left: 40px;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    text-align: center;
+  
+  .text-content-2 p {
+  margin-left:10px;
+  display:flex;
+  flex-direction:column
   }
-}
-
-@media screen and (min-width: 390px) {
-  .date-exp {
-    display: flex;
-    justify-content: end;
-    margin-right: 20px;
+  
+  .description-2 {
+  grid-column:3;
+  grid-row:2;
+  margin-left:20px;
+  font-weight:lighter
   }
+  
   .description {
-    font-weight: 100;
+  font-size:15px;
+  margin-top:10px;
+  grid-column:3;
+  grid-row:2;
+  font-weight:lighter
   }
-  h5 {
-    font-size: 22px;
-  }
-}
-@media screen and (min-width: 540px) {
-  .buttons {
-    flex-direction: row;
-    gap: 10px;
-  }
-}
-.vertical-line {
-  margin-left: 0px;
-}
-img{
-  width: 25px;
-  height: auto;
-  border:1px solid white;
-border-radius: 30px;
-}
-.icons-lang{
-  display: flex;
-  gap:5px;
-}
-@media screen and (min-width: 768px) {
-  .text-content,
-  .text-content-2,
-  .text-content-3,
-  .description,
-  .buttons button,
-  .date-exp {
-    font-size: 20px;
-  }
+  
   .company {
-    font-size: 24px;
-    margin-left: 15px;
+  padding-left:15px
   }
-  .description-2 p {
-    padding-right: 0;
+  
+  .vertical-line {
+  grid-column:2;
+  width:2px;
+  height:320px;
+  margin-left:10px;
+  background-color:var(--frst);
+  transform:rotate(180deg);
+  margin-left:5px
   }
-  h5 {
-    font-size: 28px;
-  }
-  .company h6 {
-    font-size: 25px;
-  }
-  p,
-  .buttons {
-    padding-left: 20px;
-
-    gap: 10px;
-  }
-  .description {
-    text-align: justify;
-  }
-  .tags {
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 820px) {
-  .text-content-2 p {
-    font-size: 25px;
-  }
-  .text-content-2 small {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 853px) {
-  .text-content,
-  .text-content-2,
-  .text-content-3,
-  .description,
-  .buttons button,
-  .date-exp {
-    font-size: 23px;
-  }
-  .tags {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 912px) {
-  .text-content,
-  .text-content-3,
-  .description,
-  .buttons button,
-  .date-exp {
-    font-size: 25px;
-  }
-  .text-content-2 p {
-    font-size: 29px;
-  }
-  .text-content-2 small {
-    font-size: 22px;
-  }
-  .tags {
-    font-size: 20px;
-  }
+  
   .vertical-line-2 {
-    height: 180px;
+  width:2px;
+  height:120px;
+  background-color:var(--frst);
+  transform:rotate(180deg)
   }
+  
   h5 {
-    font-size: 33px;
+  margin-bottom:15px;
+  display:flex;
+  justify-content:center
   }
-}
-@media screen and (min-width: 1024px) {
-  .text-content,
-  .text-content-3,
-  .description,
-  .buttons button,
+  
+  .buttons {
+  display:flex;
+  row-gap:10px;
+  margin-left:30px;
+  flex-direction:column
+  }
+  
+  .buttons button {
+  color:var(--frst);
+  padding:8px 10px;
+  background-color:transparent;
+  border:3px solid var(--frst);
+  border-radius:5px;
+  font-weight:700;
+  font-size:12px;
+  width:max-content;
+  overflow:hidden;
+  position:relative;
+  border-radius:10px
+  }
+  
+  .buttons a button {
+  padding:8px 24px
+  }
+  
+  .text-content-3 {
+  color:var(--p);
+  display:flex;
+  flex-direction:column;
+  margin-left:15px;
+  justify-content:center;
+  align-items:center
+  }
+  
+  .level div {
+  text-align:center
+  }
+  
+  .bi-star-fill {
+  color:#beb507
+  }
+  
+  .languages {
+  display:flex;
+  justify-content:center;
+  flex-direction:column
+  }
+  
+  .buttons button span {
+  z-index:20
+  }
+  
+  .buttons button:after {
+  background:#fff;
+  content:"";
+  height:155px;
+  left:-75px;
+  opacity:.2;
+  position:absolute;
+  top:-50px;
+  -webkit-transform:rotate(35deg);
+  transform:rotate(35deg);
+  transition:all 2850ms cubic-bezier(0.19,1,0.22,1);
+  width:50px;
+  z-index:1;
+  transition-delay:.4s
+  }
+  
+  .buttons button:hover:after {
+  left:120%;
+  transition:all 2850ms cubic-bezier(0.19,1,0.22,1)
+  }
+  
+  .labor,.languages h5 {
+  margin-top:20px
+  }
+  
+  @media screen and (min-width: 350px) {
+  .text-content {
+  display:flex;
+  justify-content:end;
+  align-items:end
+  }
+  
   .date-exp {
-    font-size: 25px;
+  padding-right:10px;
+  display:flex;
+  justify-content:start;
+  align-items:start;
+  text-align:center
   }
-  .company {
-    font-size: 29px;
   }
-  h5 {
-    font-size: 33px;
+  
+  @media screen and (min-width: 360px) {
+  .text-content {
+  display:grid;
+  grid-template-columns:0.75fr max-content 0.75fr;
+  justify-content:start;
+  align-items:start;
+  padding-right:5px
   }
-  .tags {
-    font-size: 14px;
+  
+  .date-exp {
+  padding-left:40px;
+  display:flex;
+  justify-content:start;
+  align-items:start;
+  text-align:center
   }
+  }
+  
+  @media screen and (min-width: 390px) {
+  .date-exp {
+  display:flex;
+  justify-content:end;
+  margin-right:20px
+  }
+  
   .description {
-    font-size: 18px;
+  font-weight:100
   }
-  .text-content-2 p {
-    font-size: 25px;
+  
+  h5 {
+  font-size:22px
   }
-  .text-content-2 small {
-    font-size: 18px;
   }
-  .text-content-2 button {
-    font-size: 20px;
+  
+  @media screen and (min-width: 540px) {
+  .buttons {
+  flex-direction:row;
+  gap:10px
   }
+  }
+  
+  .vertical-line {
+  margin-left:0
+  }
+  
+  img {
+  width:25px;
+  height:auto;
+  border:1px solid #fff;
+  border-radius:30px
+  }
+  
+  .icons-lang {
+  display:flex;
+  gap:5px
+  }
+  
+  @media screen and (min-width: 768px) {
+  .text-content,.text-content-2,.text-content-3,.description,.buttons button,.date-exp {
+  font-size:20px
+  }
+  
+  .company {
+  font-size:24px;
+  margin-left:15px
+  }
+  
   .description-2 p {
-    font-size: 18px;
-    display: flex;
-    padding-right: 0;
+  padding-right:0
   }
+  
+  h5 {
+  font-size:28px
+  }
+  
+  .company h6 {
+  font-size:25px
+  }
+  
+  p,.buttons {
+  padding-left:20px;
+  gap:10px
+  }
+  
+  .description {
+  text-align:justify
+  }
+  
+  .tags {
+  font-size:16px
+  }
+  }
+  
+  @media screen and (min-width: 820px) {
+  .text-content-2 p {
+  font-size:25px
+  }
+  
+  .text-content-2 small {
+  font-size:18px
+  }
+  }
+  
+  @media screen and (min-width: 853px) {
+  .text-content,.text-content-2,.text-content-3,.description,.buttons button,.date-exp {
+  font-size:23px
+  }
+  
+  .tags {
+  font-size:18px
+  }
+  }
+  
+  @media screen and (min-width: 912px) {
+  .text-content,.text-content-3,.description,.buttons button,.date-exp {
+  font-size:25px
+  }
+  
+  .text-content-2 p {
+  font-size:29px
+  }
+  
+  .text-content-2 small {
+  font-size:22px
+  }
+  
+  .tags {
+  font-size:20px
+  }
+  
+  .vertical-line-2 {
+  height:180px
+  }
+  
+  h5 {
+  font-size:33px
+  }
+  }
+  
+  @media screen and (min-width: 1024px) {
+  .company {
+  font-size:29px
+  }
+  
+  h5 {
+  font-size:33px
+  }
+  
+  .tags {
+  font-size:14px
+  }
+  
+  .text-content-2 button {
+  font-size:20px
+  }
+  
+  .description-2 p {
+  font-size:18px;
+  display:flex;
+  padding-right:0
+  }
+  
   .personal {
-    padding: 0 70px;
+  padding:0 70px
   }
-}
-
+  
+  .text-content,.text-content-3,.description,.buttons button,.date-exp,.text-content-2 p {
+  font-size:25px
+  }
+  
+  .description,.text-content-2 small {
+  font-size:18px
+  }
+  }
