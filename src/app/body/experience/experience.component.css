@@ -153,6 +153,7 @@ h5 {
   transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+
 @media screen and (min-width: 340px) {
 }
 .vertical-line {
@@ -210,6 +211,16 @@ h5 {
 }
 .vertical-line {
   margin-left: 0px;
+}
+img{
+  width: 25px;
+  height: auto;
+  border:1px solid white;
+border-radius: 30px;
+}
+.icons-lang{
+  display: flex;
+  gap:5px;
 }
 @media screen and (min-width: 768px) {
   .text-content,
