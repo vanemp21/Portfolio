@@ -4,43 +4,30 @@ hr {
   border-style: solid;
   border-width: 1px;
 }
-
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
 }
-
 .title-exp {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
-
 .text-content {
   display: grid;
   grid-template-columns: 0.75fr max-content 0.8fr;
-
   color: var(--p);
-  align-items: start;
-  justify-content: start;
   margin: 0 10px 25px 10px;
 }
 .labor {
   margin-top: 20px;
 }
-.date-exp {
-  padding-left: 60px;
-}
+
 .text-content-2 {
   display: grid;
   grid-template-columns: 0.6fr max-content 0.6fr;
   color: var(--p);
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
 }
 
 .tags {
@@ -50,8 +37,6 @@ hr {
 
 .text-content-2 p {
   margin-left: 10px;
-  margin-right: 12px;
-  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
 }
@@ -59,11 +44,6 @@ hr {
   grid-column: 3;
   grid-row: 2;
   margin-left: 20px;
-}
-
-.company h6 {
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .description {
@@ -140,7 +120,6 @@ h5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
 }
 
 .buttons button {
@@ -223,19 +202,15 @@ h5 {
     font-size: 22px;
   }
 }
-@media screen and (min-width: 412px) {
-}
 @media screen and (min-width: 540px) {
   .buttons {
     flex-direction: row;
     gap: 10px;
   }
 }
-
 .vertical-line {
   margin-left: 0px;
 }
-
 @media screen and (min-width: 768px) {
   .text-content,
   .text-content-2,
@@ -316,7 +291,6 @@ h5 {
     font-size: 33px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .text-content,
   .text-content-3,
@@ -325,7 +299,6 @@ h5 {
   .date-exp {
     font-size: 25px;
   }
-
   .company {
     font-size: 29px;
   }
@@ -335,7 +308,6 @@ h5 {
   .tags {
     font-size: 14px;
   }
-
   .description {
     font-size: 18px;
   }
@@ -357,5 +329,4 @@ h5 {
     padding: 0 70px;
   }
 }
-@media screen and (min-width: 1280px) {
-}
+
