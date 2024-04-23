@@ -290,12 +290,12 @@ hr {
   }
   
   @media screen and (min-width: 912px) {
-  .text-content,.text-content-3,.description,.buttons button,.date-exp {
+  .text-content,.text-content-3,.description,.date-exp {
   font-size:25px
   }
   
   .text-content-2 p {
-  font-size:29px
+  font-size:18px
   }
   
   .text-content-2 small {
@@ -316,6 +316,7 @@ hr {
   }
   
   @media screen and (min-width: 1024px) {
+  
   .company {
   font-size:29px
   }
@@ -342,11 +343,14 @@ hr {
   padding:0 70px
   }
   
-  .text-content,.text-content-3,.description,.buttons button,.date-exp,.text-content-2 p {
-  font-size:25px
+  .text-content,.text-content-3,.description,.date-exp,.text-content-2 p {
+  font-size:18px
   }
   
   .description,.text-content-2 small {
   font-size:18px
+  }
+  .buttons button{
+    font-size:20px;
   }
   }
