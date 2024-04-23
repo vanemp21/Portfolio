@@ -131,7 +131,7 @@ hr {
   flex-direction:column
   }
   
-  .buttons button span {
+  .buttons button {
   z-index:20
   }
   

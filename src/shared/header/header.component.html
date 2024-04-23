@@ -1,19 +1,28 @@
 <div class="container" id="init">
   <nav>
-    <ul>
-      <li>
-        <a href="#about">{{ "Sobre mi" | translate }}</a>
-      </li>
+
+    <div  class="fixed-menu d-lg-none">
+      <div class="hamburger-menu" (click)="toggleMenu()">
+        <div class="bar first" [class.open]="isOpen"></div>
+        <div class="bar second" [class.open]="isOpen"></div>
+        <div class="bar third" [class.open]="isOpen"></div>
+      </div>
+    </div>
+    
+    <ul *ngIf="isOpen" class="d-block d-lg-none hamburguer">
+      <li><a href="#about">{{ "Sobre mi" | translate }}</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li class="border-transition">
-        <a href="#schooling">{{ "Estudios" | translate }}</a>
-      </li>
-      <li>
-        <a href="#experience">{{ "Experiencia" | translate }}</a>
-      </li>
-      <li>
-        <a href="#contact">{{ "Contacto" | translate }}</a>
-      </li>
+      <li class="border-transition"><a href="#schooling">{{ "Estudios" | translate }}</a></li>
+      <li><a href="#experience">{{ "Experiencia" | translate }}</a></li>
+      <li><a href="#contact">{{ "Contacto" | translate }}</a></li>
+    </ul>
+
+ <ul class="d-none d-lg-flex">
+      <li><a href="#about">{{ "Sobre mi" | translate }}</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li class="border-transition"><a href="#schooling">{{ "Estudios" | translate }}</a></li>
+      <li><a href="#experience">{{ "Experiencia" | translate }}</a></li>
+      <li><a href="#contact">{{ "Contacto" | translate }}</a></li>
     </ul>
   </nav>
 </div>
