@@ -4,7 +4,6 @@ import { HeaderComponent } from '../shared/header/header.component';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { provideTranslation } from './providers/translation';
 
 @Component({
   selector: 'app-root',
