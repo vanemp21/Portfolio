@@ -11,7 +11,8 @@
 .ico-github,
 .ico-linkedin,
 .ico-whatsap,
-.ico-gmail {
+.ico-gmail,
+.ico-pdf {
   border: 3px solid var(--frst);
   font-size: 25px;
   background-color: transparent;
