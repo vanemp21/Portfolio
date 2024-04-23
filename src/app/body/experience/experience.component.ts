@@ -12,6 +12,34 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class ExperienceComponent {
   mostrar: boolean = false;
   proyectos = [
+
+    {
+      id: 'proyectoSpotify',
+      nombre: 'Proyecto Spotify',
+      tecnologia: 'Angular',
+      descripcionKey: 'proyectoSpotifyDescripcion',
+      githubUrl: 'https://github.com/vanemp21/Proyecto-Spotify--Angular',
+      etiquetas: ['Angular', 'TypeScript', 'Bootstrap', 'CSS', 'HTML'],
+      mostrado: false,
+    },
+    {
+      id: 'proyectoTienda',
+      nombre: 'Proyecto Tienda',
+      tecnologia: 'Angular',
+      descripcionKey: 'proyectoTiendaDescripcion',
+      githubUrl: 'https://github.com/vanemp21/Proyecto-Tienda--Angular',
+      etiquetas: ['Angular', 'TypeScript', 'Bootstrap', 'CSS', 'HTML', 'Node','Express','MySQL'],
+      mostrado: false,
+    },
+    {
+      id: 'proyectoCalculadora',
+      nombre: 'Proyecto Calculadora',
+      tecnologia: 'Angular',
+      descripcionKey: 'proyectoCalculadoraDescripcion',
+      githubUrl: 'https://github.com/vanemp21/Proyecto-Calculadora--Angular',
+      etiquetas: ['Angular', 'TypeScript', 'Bootstrap', 'CSS', 'HTML'],
+      mostrado: false,
+    },
     {
       id: 'proyectoHeroes',
       nombre: 'Proyecto Héroes',
@@ -58,24 +86,6 @@ export class ExperienceComponent {
         'JavaScript',
         'Firebase',
       ],
-      mostrado: false,
-    },
-    {
-      id: 'proyectoCalculadora',
-      nombre: 'Proyecto Calculadora',
-      tecnologia: 'Angular',
-      descripcionKey: 'proyectoCalculadoraDescripcion',
-      githubUrl: 'https://github.com/vanemp21/Proyecto-Calculadora--Angular',
-      etiquetas: ['Angular', 'TypeScript', 'Bootstrap', 'CSS', 'HTML'],
-      mostrado: false,
-    },
-    {
-      id: 'proyectoSpotify',
-      nombre: 'Proyecto Spotify',
-      tecnologia: 'Angular',
-      descripcionKey: 'proyectoSpotifyDescripcion',
-      githubUrl: 'https://github.com/vanemp21/Proyecto-Spotify--Angular',
-      etiquetas: ['Angular', 'TypeScript', 'Bootstrap', 'CSS', 'HTML'],
       mostrado: false,
     },
     {

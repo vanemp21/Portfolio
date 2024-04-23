@@ -39,6 +39,7 @@
     "Proyecto Calculadora":"Proyecto Calculadora",
     "Proyecto Spotify":"Proyecto Spotify",
     "Proyecto TFG":"Proyecto TFG",
+    "Proyecto Tienda":"Proyecto Tienda",
     "Idiomas":"Idiomas",
     "Español":"Español",
     "Inglés":"Inglés",
@@ -51,7 +52,8 @@
     "proyectoAgendaDescripcion":"Proyecto que utiliza Firebase como base de datos, donde implementé consultas de añadir, eliminar y editar elementos dinámicamente. Esta aplicación permite a los usuarios agregar nuevos elementos, eliminar los existentes y actualizar la información de los elementos ya almacenados en la base de datos Firebase, todo en tiempo real, utilizando la libreria de Tailwind para los estilos.",
     "proyectoCalculadoraDescripcion":"Proyecto que hace cálculos matemáticos",
     "proyectoSpotifyDescripcion":"Proyecto de música estilo Spotify que permite la reproducción de música, búsqueda de canciones con Login y Cookies",
-    "proyectoTfgDescripcion":"Proyecto sobre un restaurante que hace consultas a la base de datos MySQL para añadir , editar, eliminar pedidos y al finalizar tiene la opción de crear factura que se visualizará en PDF mediante la librería FPDF."
+    "proyectoTfgDescripcion":"Proyecto sobre un restaurante que hace consultas a la base de datos MySQL para añadir , editar, eliminar pedidos y al finalizar tiene la opción de crear factura que se visualizará en PDF mediante la librería FPDF.",
+    "proyectoTiendaDescripcion":"Proyecto sobre una tienda para hacer consultas de añadir, editar o borrar a la base de datos MySQL con la API creada con Node, Express y Typescript"
 
 
 
