@@ -1,20 +1,20 @@
-import { CommonModule, NgFor, NgIf } from '@angular/common';
+import { CommonModule} from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import proyectosData from '../experience/experience.json';
-import idiomasData from '../experience/languages.json';
+import projectsData from '../experience/experience.json';
+import languagesData from '../experience/languages.json';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [NgFor, NgIf, TranslateModule, CommonModule],
+  imports: [TranslateModule, CommonModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })
 export class ExperienceComponent {
   mostrar: boolean = false;
-  proyectos = proyectosData;
-  idiomas = idiomasData;
+  proyectos = projectsData;
+  idiomas = languagesData;
 
   generarEstrellas(puntuacion: number): any[] {
     return Array(puntuacion)

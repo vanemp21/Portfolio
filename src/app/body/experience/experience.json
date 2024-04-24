@@ -1,89 +1,97 @@
 [
-    {
-        "id": "proyectoSpotify",
-        "nombre": "Proyecto Spotify",
-        "tecnologia": "Angular",
-        "descripcionKey": "proyectoSpotifyDescripcion",
-        "githubUrl": "https://github.com/vanemp21/Proyecto-Spotify--Angular",
-        "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
-        "mostrado": false
-      },
-      {
-        "id": "proyectoTienda",
-        "nombre": "Proyecto Tienda",
-        "tecnologia": "Angular",
-        "descripcionKey": "proyectoTiendaDescripcion",
-        "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--Angular",
-        "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML", "Node","Express","MySQL"],
-        "mostrado": false
-      },
-      {
-        "id": "proyectoCalculadora",
-        "nombre": "Proyecto Calculadora",
-        "tecnologia": "Angular",
-        "descripcionKey": "proyectoCalculadoraDescripcion",
-        "githubUrl": "https://github.com/vanemp21/Proyecto-Calculadora--Angular",
-        "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
-        "mostrado": false
-      },
-    {
-      "id": "proyectoHeroes",
-      "nombre": "Proyecto Héroes",
-      "tecnologia": "ReactJs",
-      "descripcionKey": "proyectoHeroesDescripcion",
-      "githubUrl": "https://github.com/vanemp21/Proyecto-heroes--ReactJs",
-      "etiquetas": [
-        "ReactJS",
-        "CSS",
-        "HTML",
-        "Firebase",
-        "Tailwind",
-        "JavaScript"
-      ],
-      "mostrado": false
-    },
-    {
-      "id": "proyectoCalendario",
-      "nombre": "Proyecto Calendario",
-      "tecnologia": "ReactJs",
-      "descripcionKey": "proyectoCalendarioDescripcion",
-      "githubUrl": "https://github.com/vanemp21/Proyecto-Calendario--ReacJS",
-      "etiquetas": [
-        "ReactJS",
-        "CSS",
-        "HTML",
-        "Tailwind",
-        "JavaScript",
-        "Firebase"
-      ],
-      "mostrado": false
-    },
-    {
-      "id": "proyectoAgenda",
-      "nombre": "Proyecto Agenda",
-      "tecnologia": "ReactJs",
-      "descripcionKey": "proyectoAgendaDescripcion",
-      "githubUrl": "https://github.com/vanemp21/Proyecto-journal--ReactJs",
-      "etiquetas": [
-        "ReactJS",
-        "CSS",
-        "HTML",
-        "Tailwind",
-        "JavaScript",
-        "Firebase",
-        "Bootstrap"
-      ],
-      "mostrado": false
-    },
+  {
+    "id": "proyectoSpotify",
+    "nombre": "Proyecto Spotify",
+    "tecnologia": "Angular",
+    "descripcionKey": "proyectoSpotifyDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Spotify--Angular",
+    "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoTienda",
+    "nombre": "Proyecto Tienda",
+    "tecnologia": "Angular",
+    "descripcionKey": "proyectoTiendaDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--Angular",
+    "etiquetas": [
+      "Angular",
+      "TypeScript",
+      "Bootstrap",
+      "CSS",
+      "HTML",
+      "Node",
+      "Express",
+      "MySQL"
+    ],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoCalculadora",
+    "nombre": "Proyecto Calculadora",
+    "tecnologia": "Angular",
+    "descripcionKey": "proyectoCalculadoraDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Calculadora--Angular",
+    "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoHeroes",
+    "nombre": "Proyecto Héroes",
+    "tecnologia": "ReactJs",
+    "descripcionKey": "proyectoHeroesDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-heroes--ReactJs",
+    "etiquetas": [
+      "ReactJS",
+      "CSS",
+      "HTML",
+      "Firebase",
+      "Tailwind",
+      "JavaScript"
+    ],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoCalendario",
+    "nombre": "Proyecto Calendario",
+    "tecnologia": "ReactJs",
+    "descripcionKey": "proyectoCalendarioDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Calendario--ReacJS",
+    "etiquetas": [
+      "ReactJS",
+      "CSS",
+      "HTML",
+      "Tailwind",
+      "JavaScript",
+      "Firebase"
+    ],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoAgenda",
+    "nombre": "Proyecto Agenda",
+    "tecnologia": "ReactJs",
+    "descripcionKey": "proyectoAgendaDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-journal--ReactJs",
+    "etiquetas": [
+      "ReactJS",
+      "CSS",
+      "HTML",
+      "Tailwind",
+      "JavaScript",
+      "Firebase",
+      "Bootstrap"
+    ],
+    "mostrado": false
+  },
 
-
-    {
-      "id": "proyectoTfg",
-      "nombre": "Proyecto TFG",
-      "tecnologia": "PHP",
-      "descripcionKey": "proyectoTfgDescripcion",
-      "githubUrl": "https://github.com/vanemp21/Proyecto-TFG--PHP",
-      "etiquetas": ["PHP", "JavaScript", "Bootstrap", "CSS", "HTML", "MySQL"],
-      "mostrado": false
-    }
-  ]
+  {
+    "id": "proyectoTfg",
+    "nombre": "Proyecto TFG",
+    "tecnologia": "PHP",
+    "descripcionKey": "proyectoTfgDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-TFG--PHP",
+    "etiquetas": ["PHP", "JavaScript", "Bootstrap", "CSS", "HTML", "MySQL"],
+    "mostrado": false
+  }
+]
