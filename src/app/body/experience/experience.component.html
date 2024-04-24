@@ -6,7 +6,7 @@
     <div class="labor">
       <h5>{{ "Laboral" | translate }}</h5>
       <div class="text-content">
-        <div class="date-exp">01/12/23 05/04/24</div>
+        <div class="date-exp">01-12-23 | 05-04-24</div>
         <div class="vertical-line"></div>
         <div class="company">
           <h6>TicSmart S.L</h6>
@@ -19,21 +19,24 @@
       <h5>{{ "Personal" | translate }}</h5>
       <div class="text-content-2" *ngFor="let proyecto of proyectos">
         <p>
-          {{ proyecto.nombre | translate }}
-          <small class="tags"> {{ proyecto.etiquetas.join(" ") }}</small>
+        <span class="project-name"> {{ proyecto.nombre | translate }}</span>
+          <span class="etiquetas">
+          <span  *ngFor="let etiqueta of proyecto.etiquetas"
+          [ngClass]="etiqueta">
+          <small class="tags" > {{etiqueta}}</small></span></span>
         </p>
 
-        <div class="vertical-line-2"></div>
+     
         <div class="buttons">
           <button class="border-transition" (click)="mostrarTexto(proyecto) ">
-            <span >{{ "Descripción" | translate }}</span></button
+            <span>{{ "Descripción" | translate }}</span></button
           ><a href="{{ proyecto.githubUrl }}" target="_blank"
             ><button class="border-transition"><span>Github</span></button></a
           >
         </div>
 
         <div
-          class="description-2"
+          class="description-2 grid-item special"
           *ngIf="proyecto.mostrado && proyecto.descripcionKey"
         >
           <p>{{ proyecto.descripcionKey | translate }}</p>

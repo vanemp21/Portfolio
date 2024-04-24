@@ -50,8 +50,8 @@
   "proyectoHeroesDescripcion": "Project where I implemented search and login functionalities. This application allows users to use an advanced search and description of the heroes, where the Tailwind library has been used for the styles.",
   "proyectoCalendarioDescripcion": "Project that uses Firebase as a database, where I implemented queries to dynamically add, delete and edit elements. This application allows users to add new elements, delete existing ones, and update information on elements already stored in the Firebase database, all in real time, using the Tailwind library for styles.",
   "proyectoAgendaDescripcion": "Project that uses Firebase as a database, where I implemented queries to dynamically add, delete and edit elements. This application allows users to add new elements, delete existing ones, and update information on elements already stored in the Firebase database, all in real time, using the Tailwind library for styles.",
-  "proyectoCalculadoraDescripcion": "Project to do mathematical calculations.",
+  "proyectoCalculadoraDescripcion": "Project that makes mathematical calculations in which each section such as numbers, results, operators is in a different component to learn the two binding ways.",
   "proyectoSpotifyDescripcion": "Music playback and search project using a local Spotify-style API, with Login and Cookies.",
   "proyectoTfgDescripcion": "A restaurant project for the final course project in which add, delete or edit queries are made in the MySQL database with PHP, in addition to displaying the invoice result in PDF using the FPDF library.",
-  "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript"
+  "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript."
 }

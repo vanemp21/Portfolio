@@ -1,0 +1,8 @@
+[
+    { "nombre": "Español", "puntuacion": 5 },
+    { "nombre": "Inglés", "puntuacion": 4 },
+    { "nombre": "Valenciano", "puntuacion": 5 },
+    { "nombre": "Catalán", "puntuacion": 5 },
+    { "nombre": "Alemán", "puntuacion": 2 }
+  ]
+  
