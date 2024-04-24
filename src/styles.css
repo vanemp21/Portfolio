@@ -27,3 +27,107 @@ h5{
     color: var(--frst);
     padding: 5px 0px;
 }
+.HTML,
+.CSS,
+.Firebase,
+.ReactJS,
+.Angular,
+.Tailwind,
+.JavaScript,
+.TypeScript,
+.PHP,
+.Bootstrap,
+.MySQL,
+.Node,
+.Express {
+  border-radius: 5px;
+  padding: 0 1.5px;
+  font-weight: 700;
+}
+
+.ReactJS {
+  color: #08b2cd;
+}
+
+.Angular {
+  color: #a50b0b;
+}
+
+.HTML {
+  color: #cd4800;
+}
+
+.CSS {
+  color: #607bf1;
+}
+
+.Firebase {
+  color: #e6a038;
+  font-weight: 600;
+}
+
+.Tailwind {
+  color: #0fad90;
+}
+
+.JavaScript {
+  color: #e2e20a;
+  font-weight: 600;
+}
+
+.TypeScript {
+  color: #448bdb;
+}
+
+.PHP {
+  color: #a57dcd;
+}
+
+.Bootstrap {
+  color: #9956dd;
+}
+
+.MySQL {
+  font-weight: 600;
+  color: #fff;
+}
+
+.Node {
+  color: green;
+}
+
+.Express {
+  color: #000;
+}
+.bi-star-fill {
+    color: #beb507;
+  }
+  .level div {
+    text-align: center;
+  }
+  .languages {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .buttons button:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: 1;
+    transition-delay: 0.4s;
+  }
+  
+  .buttons button:hover:after {
+    left: 120%;
+    transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
+  }

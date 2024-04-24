@@ -1,10 +1,3 @@
-hr {
-  transform: rotate(90deg);
-  color: #ef1b61;
-  border-style: solid;
-  border-width: 1px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -36,7 +29,6 @@ hr {
 .etiquetas {
   display: grid;
   grid-template-columns: max-content max-content;
-  margin-right: 10px;
 }
 
 .etiquetas span {
@@ -47,10 +39,6 @@ hr {
   grid-column-start: 1;
   grid-column-end: span 3;
   padding: 0 5px;
-}
-
-.grid-item.special p {
-  text-align: justify;
 }
 
 .text-content-2:last-of-type {
@@ -74,79 +62,6 @@ hr {
 
 .etiqueta {
   display: flex;
-}
-
-.HTML,
-.CSS,
-.Firebase,
-.ReactJS,
-.Angular,
-.Tailwind,
-.JavaScript,
-.TypeScript,
-.PHP,
-.Bootstrap,
-.MySQL,
-.Node,
-.Express {
-  border-radius: 5px;
-  padding: 0 1.5px;
-  font-weight: 700;
-}
-
-.ReactJS {
-  color: #08b2cd;
-}
-
-.Angular {
-  color: #a50b0b;
-}
-
-.HTML {
-  color: #cd4800;
-}
-
-.CSS {
-  color: #607bf1;
-}
-
-.Firebase {
-  color: #e6a038;
-  font-weight: 600;
-}
-
-.Tailwind {
-  color: #0fad90;
-}
-
-.JavaScript {
-  color: #e2e20a;
-  font-weight: 600;
-}
-
-.TypeScript {
-  color: #448bdb;
-}
-
-.PHP {
-  color: #a57dcd;
-}
-
-.Bootstrap {
-  color: #9956dd;
-}
-
-.MySQL {
-  font-weight: 600;
-  color: #fff;
-}
-
-.Node {
-  color: green;
-}
-
-.Express {
-  color: #000;
 }
 
 .description-2 {
@@ -216,41 +131,6 @@ h5 {
   margin-left: 15px;
   justify-content: center;
   align-items: center;
-}
-
-.level div {
-  text-align: center;
-}
-
-.bi-star-fill {
-  color: #beb507;
-}
-
-.languages {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.buttons button:after {
-  background: #fff;
-  content: "";
-  height: 155px;
-  left: -75px;
-  opacity: 0.2;
-  position: absolute;
-  top: -50px;
-  -webkit-transform: rotate(35deg);
-  transform: rotate(35deg);
-  transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
-  width: 50px;
-  z-index: 1;
-  transition-delay: 0.4s;
-}
-
-.buttons button:hover:after {
-  left: 120%;
-  transition: all 2850ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .labor,
@@ -351,7 +231,7 @@ img {
   }
 
   .description-2 p {
-    font-size:20px;
+    font-size: 20px;
   }
 
   h5 {
@@ -367,11 +247,13 @@ img {
     text-align: justify;
   }
 
-  .project-name, .company h6 {
+  .project-name,
+  .company h6 {
     font-size: 23px;
   }
 
-  .tags, .company {
+  .tags,
+  .company {
     font-size: 16px;
   }
 
@@ -410,19 +292,22 @@ img {
 }
 
 @media screen and (min-width: 912px) {
-
- .text-content-2 p, .text-content-3, .description, .date-exp, .text-content-2 small {
+  .text-content-2 p,
+  .text-content-3,
+  .description,
+  .date-exp,
+  .text-content-2 small {
     font-size: 24px;
   }
   .tags {
     font-size: 20px;
   }
-.company h6{
-  font-size:27px;
-}
-.company{
-  padding-left:25px;
-}
+  .company h6 {
+    font-size: 27px;
+  }
+  .company {
+    padding-left: 25px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .company {
@@ -468,7 +353,8 @@ img {
     font-size: 15px !important;
   }
 
-  .description-2 p, .description {
+  .description-2 p,
+  .description {
     font-size: 20px;
   }
 
