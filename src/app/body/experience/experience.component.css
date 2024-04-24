@@ -21,9 +21,7 @@ hr {
   color: var(--p);
   margin: 0 10px 25px;
 }
-.personal {
-  margin: 0 5px;
-}
+
 .text-content-2 {
   display: grid;
   grid-template-columns: 0.8fr 0.2fr;
@@ -34,35 +32,36 @@ hr {
   margin-bottom: 10px;
   padding-top: 20px;
 }
+
 .etiquetas {
   display: grid;
   grid-template-columns: max-content max-content;
   margin-right: 10px;
 }
-.etiquetas span{
+
+.etiquetas span {
   padding-right: 20px;
 }
+
 .grid-item.special {
   grid-column-start: 1;
   grid-column-end: span 3;
   padding: 0 5px;
 }
+
 .grid-item.special p {
   text-align: justify;
 }
 
-.tags {
-  font-size: 12px;
-}
 .text-content-2:last-of-type {
   border-bottom: 2px solid var(--frst);
 }
+
 .text-content-2 p {
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
-
   padding: 5px;
 }
 
@@ -72,9 +71,11 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .etiqueta {
   display: flex;
 }
+
 .HTML,
 .CSS,
 .Firebase,
@@ -89,54 +90,65 @@ hr {
 .Node,
 .Express {
   border-radius: 5px;
-
   padding: 0 1.5px;
   font-weight: 700;
 }
+
 .ReactJS {
-  color: rgb(8, 178, 205);
+  color: #08b2cd;
 }
+
 .Angular {
-  color: rgb(165, 11, 11);
+  color: #a50b0b;
 }
+
 .HTML {
-  color: rgb(205, 72, 0);
+  color: #cd4800;
 }
+
 .CSS {
-  color: rgb(96, 123, 241);
+  color: #607bf1;
 }
+
 .Firebase {
-  color: rgb(230, 160, 56);
-
+  color: #e6a038;
   font-weight: 600;
 }
+
 .Tailwind {
-  color: rgb(15, 173, 144);
+  color: #0fad90;
 }
-.JavaScript {
-  color: rgb(226, 226, 10);
 
+.JavaScript {
+  color: #e2e20a;
   font-weight: 600;
 }
+
 .TypeScript {
-  color: rgb(68, 139, 219);
+  color: #448bdb;
 }
+
 .PHP {
-  color: rgb(165, 125, 205);
+  color: #a57dcd;
 }
+
 .Bootstrap {
-  color: rgb(153, 86, 221);
+  color: #9956dd;
 }
+
 .MySQL {
   font-weight: 600;
-  color: white;
+  color: #fff;
 }
+
 .Node {
   color: green;
 }
+
 .Express {
-  color: black;
+  color: #000;
 }
+
 .description-2 {
   grid-column: 3;
   grid-row: 2;
@@ -165,13 +177,6 @@ hr {
   margin-left: 5px;
 }
 
-.vertical-line-2 {
-  width: 2px;
-  height: 120px;
-  background-color: var(--frst);
-  transform: rotate(180deg);
-}
-
 h5 {
   margin-bottom: 15px;
   display: flex;
@@ -197,6 +202,7 @@ h5 {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
+  z-index: 20;
 }
 
 .buttons a button {
@@ -224,10 +230,6 @@ h5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.buttons button {
-  z-index: 20;
 }
 
 .buttons button:after {
@@ -289,6 +291,7 @@ h5 {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 375px) {
   .personal {
     margin: 0 20px;
@@ -310,6 +313,7 @@ h5 {
     font-size: 22px;
   }
 }
+
 @media screen and (min-width: 412px) {
   .personal {
     margin: 0 30px;
@@ -340,34 +344,19 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .text-content,
-  .text-content-2,
   .text-content-3,
-  .description,
   .buttons button,
   .date-exp {
     font-size: 20px;
   }
-  .text-content-2 {
-    padding: 20px 0;
-  }
-  .company {
-    font-size: 24px;
-    margin-left: 15px;
-  }
 
   .description-2 p {
-    padding-right: 0;
+    font-size:20px;
   }
 
   h5 {
     font-size: 28px;
   }
-
-  .company h6 {
-    font-size: 25px;
-  }
-
   p,
   .buttons {
     padding-left: 20px;
@@ -377,12 +366,15 @@ img {
   .description {
     text-align: justify;
   }
-  .project-name {
+
+  .project-name, .company h6 {
     font-size: 23px;
   }
-  .tags {
+
+  .tags, .company {
     font-size: 16px;
   }
+
   .personal {
     margin: 0 50px;
   }
@@ -396,17 +388,14 @@ img {
   .text-content-2 small {
     font-size: 18px;
   }
-  .project-name{
-    font-size:28px;
+
+  .project-name {
+    font-size: 28px;
   }
 }
 
 @media screen and (min-width: 853px) {
-  .text-content,
-  .text-content-2,
-  .text-content-3,
   .description,
-  .buttons button,
   .date-exp {
     font-size: 23px;
   }
@@ -414,40 +403,27 @@ img {
   .tags {
     font-size: 18px;
   }
-  .project-name{
-    font-size:27px;
+
+  .project-name {
+    font-size: 27px;
   }
 }
 
 @media screen and (min-width: 912px) {
-  .text-content,
-  .text-content-3,
-  .description,
-  .date-exp {
-    font-size: 25px;
-  }
 
-  .text-content-2 p {
-    font-size: 18px;
+ .text-content-2 p, .text-content-3, .description, .date-exp, .text-content-2 small {
+    font-size: 24px;
   }
-
-  .text-content-2 small {
-    font-size: 22px;
-  }
-
   .tags {
     font-size: 20px;
   }
-
-  .vertical-line-2 {
-    height: 180px;
-  }
-
-  h5 {
-    font-size: 33px;
-  }
+.company h6{
+  font-size:27px;
 }
-
+.company{
+  padding-left:25px;
+}
+}
 @media screen and (min-width: 1024px) {
   .company {
     font-size: 29px;
@@ -457,12 +433,10 @@ img {
     font-size: 33px;
   }
 
-  .text-content-2 button {
-    font-size: 20px;
-  }
   .project-name {
     font-size: 33px;
   }
+
   .tags {
     font-size: 25px !important;
   }
@@ -471,10 +445,6 @@ img {
     font-size: 26px;
     display: flex;
     padding-right: 0;
-  }
-
-  .personal {
-    padding: 0 70px;
   }
 
   .date-exp {
@@ -490,18 +460,19 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .description{
-    font-size:19px;
-  }
   .project-name {
     font-size: 26px;
   }
+
   .tags {
     font-size: 15px !important;
   }
-  .description-2 p {
-    font-size: 20px;}
-    .text-content-2{
-      grid-template-columns: 0.35fr 0.35fr;
-    }
+
+  .description-2 p, .description {
+    font-size: 20px;
+  }
+
+  .text-content-2 {
+    grid-template-columns: 0.35fr 0.35fr;
+  }
 }
