@@ -39,7 +39,8 @@
     "Proyecto Calculadora":"Proyecto Calculadora",
     "Proyecto Spotify":"Proyecto Spotify",
     "Proyecto TFG":"Proyecto TFG",
-    "Proyecto Tienda":"Proyecto Tienda",
+    "Proyecto Crud Tienda":"Proyecto Crud Tienda",
+    "Proyecto Tienda Completa":"Proyecto Tienda Completa",
     "Idiomas":"Idiomas",
     "Español":"Español",
     "Inglés":"Inglés",
@@ -53,9 +54,8 @@
     "proyectoCalculadoraDescripcion":"Proyecto que hace cálculos matemáticos el cual cada apartado como números, resultado, operadores está en un componente distinto para aprender el two binding ways.",
     "proyectoSpotifyDescripcion":"Proyecto de música estilo Spotify que permite la reproducción de música, búsqueda de canciones con Login y Cookies",
     "proyectoTfgDescripcion":"Proyecto sobre un restaurante que hace consultas a la base de datos MySQL para añadir , editar, eliminar pedidos y al finalizar tiene la opción de crear factura que se visualizará en PDF mediante la librería FPDF.",
-    "proyectoTiendaDescripcion":"Proyecto sobre una tienda para hacer consultas de añadir, editar o borrar a la base de datos MySQL con la API creada con Node, Express y Typescript."
-
-
+    "proyectoTiendaDescripcion":"Proyecto sobre una tienda para hacer consultas de añadir, editar o borrar a la base de datos MySQL con la API creada con Node, Express y Typescript.",
+    "proyectoTiendaCompletaDescripcion": "Proyecto sobre una tienda con login y registro con correo y contraseña o google, el cual puedes añadir objetos al carrito y comprarlo. Todo se guarda mediante la base de datos de Firebase"
 
   }
   

@@ -39,7 +39,8 @@
   "Proyecto Calculadora": "Calculator Project",
   "Proyecto Spotify": "Spotify Project",
   "Proyecto TFG": "Thesis Project",
-  "Proyecto Tienda":"Shop Project",
+  "Proyecto Crud Tienda":"Shop Crud Project",
+  "Proyecto Tienda Completa":"Complete Shop Project",
   "Idiomas": "Languages",
   "Español": "Spanish",
   "Inglés": "English",
@@ -53,5 +54,7 @@
   "proyectoCalculadoraDescripcion": "Project that makes mathematical calculations in which each section such as numbers, results, operators is in a different component to learn the two binding ways.",
   "proyectoSpotifyDescripcion": "Music playback and search project using a local Spotify-style API, with Login and Cookies.",
   "proyectoTfgDescripcion": "A restaurant project for the final course project in which add, delete or edit queries are made in the MySQL database with PHP, in addition to displaying the invoice result in PDF using the FPDF library.",
-  "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript."
+  "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript.",
+  "proyectoTiendaCompletaDescripcion": "Project about a store with login and registration with email and password or Google, in which you can add objects to the cart and buy it. Everything is saved using the Firebase database"
+
 }

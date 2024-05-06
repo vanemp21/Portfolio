@@ -1,5 +1,14 @@
 [
   {
+    "id": "proyectoTiendaCompleta",
+    "nombre": "Proyecto Tienda Completa",
+    "tecnologia": "Angular",
+    "descripcionKey": "proyectoTiendaCompletaDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular",
+    "etiquetas": ["Angular","TypeScript", "Tailwind", "Firebase","CSS", "HTML"],
+    "mostrado": false
+  },
+  {
     "id": "proyectoSpotify",
     "nombre": "Proyecto Spotify",
     "tecnologia": "Angular",
@@ -10,7 +19,7 @@
   },
   {
     "id": "proyectoTienda",
-    "nombre": "Proyecto Tienda",
+    "nombre": "Proyecto Crud Tienda",
     "tecnologia": "Angular",
     "descripcionKey": "proyectoTiendaDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--Angular",
