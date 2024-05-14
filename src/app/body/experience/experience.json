@@ -3,57 +3,57 @@
   {
     "id": "proyectoTiendaReact",
     "nombre": "Proyecto Tienda",
-    "tecnologia": "ReactJs",
+    "tecnologia": "React",
     "descripcionKey": "proyectoTiendaReactDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--ReactJS",
-    "etiquetas": ["ReactJS","JavaScript","CSS", "HTML"],
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--ReactTS",
+    "etiquetas": ["React","TypeScript","CSS", "HTML"],
     "mostrado": false
   },
   {
     "id": "proyectoHeroes",
     "nombre": "Proyecto Héroes",
-    "tecnologia": "ReactJs",
+    "tecnologia": "React",
     "descripcionKey": "proyectoHeroesDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-heroes--ReactJs",
     "etiquetas": [
-      "ReactJS",
+      "React",
+      "JavaScript",
       "CSS",
       "HTML",
       "Firebase",
-      "Tailwind",
-      "JavaScript"
+      "Tailwind"
     ],
     "mostrado": false
   },
   {
     "id": "proyectoCalendario",
     "nombre": "Proyecto Calendario",
-    "tecnologia": "ReactJs",
+    "tecnologia": "React",
     "descripcionKey": "proyectoCalendarioDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Calendario--ReacJS",
     "etiquetas": [
-      "ReactJS",
+      "React",
+      "JavaScript",
+      "Firebase",
       "CSS",
       "HTML",
-      "Tailwind",
-      "JavaScript",
-      "Firebase"
+      "Tailwind"
     ],
     "mostrado": false
   },
   {
     "id": "proyectoAgenda",
     "nombre": "Proyecto Agenda",
-    "tecnologia": "ReactJs",
+    "tecnologia": "React",
     "descripcionKey": "proyectoAgendaDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-journal--ReactJs",
     "etiquetas": [
-      "ReactJS",
+      "React",
+      "JavaScript",
+      "Firebase",
       "CSS",
       "HTML",
       "Tailwind",
-      "JavaScript",
-      "Firebase",
       "Bootstrap"
     ],
     "mostrado": false
