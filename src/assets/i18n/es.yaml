@@ -41,6 +41,7 @@
     "Proyecto TFG":"Proyecto TFG",
     "Proyecto Crud Tienda":"Proyecto Crud Tienda",
     "Proyecto Tienda Completa":"Proyecto Tienda Completa",
+    "Proyecto Tienda":"Proyecto Tienda",
     "Idiomas":"Idiomas",
     "Español":"Español",
     "Inglés":"Inglés",
@@ -55,7 +56,8 @@
     "proyectoSpotifyDescripcion":"Proyecto de música estilo Spotify que permite la reproducción de música, búsqueda de canciones con Login y Cookies",
     "proyectoTfgDescripcion":"Proyecto sobre un restaurante que hace consultas a la base de datos MySQL para añadir , editar, eliminar pedidos y al finalizar tiene la opción de crear factura que se visualizará en PDF mediante la librería FPDF.",
     "proyectoTiendaDescripcion":"Proyecto sobre una tienda para hacer consultas de añadir, editar o borrar a la base de datos MySQL con la API creada con Node, Express y Typescript.",
-    "proyectoTiendaCompletaDescripcion": "Proyecto sobre una tienda con login y registro con correo y contraseña o google, el cual puedes añadir objetos al carrito y comprarlo. Todo se guarda mediante la base de datos de Firebase"
+    "proyectoTiendaCompletaDescripcion": "Proyecto sobre una tienda con login y registro con correo y contraseña o google, el cual puedes añadir objetos al carrito y comprarlo. Todo se guarda mediante la base de datos de Firebase",
+    "proyectoTiendaReactDescripcion": "Proyecto creado en React donde permite añadir, incrementar, decrementar, modificar, borrar objetos en forma de carrito de la compra. Trabaja con localstorage.",
 
   }
   

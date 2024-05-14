@@ -41,6 +41,7 @@
   "Proyecto TFG": "Thesis Project",
   "Proyecto Crud Tienda":"Shop Crud Project",
   "Proyecto Tienda Completa":"Complete Shop Project",
+  "Proyecto Tienda":"Shop Project",
   "Idiomas": "Languages",
   "Español": "Spanish",
   "Inglés": "English",
@@ -55,6 +56,7 @@
   "proyectoSpotifyDescripcion": "Music playback and search project using a local Spotify-style API, with Login and Cookies.",
   "proyectoTfgDescripcion": "A restaurant project for the final course project in which add, delete or edit queries are made in the MySQL database with PHP, in addition to displaying the invoice result in PDF using the FPDF library.",
   "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript.",
-  "proyectoTiendaCompletaDescripcion": "Project about a store with login and registration with email and password or Google, in which you can add objects to the cart and buy it. Everything is saved using the Firebase database"
+  "proyectoTiendaCompletaDescripcion": "Project about a store with login and registration with email and password or Google, in which you can add objects to the cart and buy it. Everything is saved using the Firebase database",
+  "proyectoTiendaReactDescripcion": "Project created in React where it allows adding, increasing, decreasing, modifying, deleting objects in the form of a shopping cart. Work with localstorage.",
 
 }
