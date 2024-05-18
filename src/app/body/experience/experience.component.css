@@ -154,7 +154,7 @@ h5 {
     justify-content: start;
     align-items: start;
     text-align: center;
-    
+    margin-right: 20px;
   }
 }
 
@@ -166,15 +166,7 @@ h5 {
     align-items: start;
     padding-right: 5px;
   }
-
-  .date-exp {
-  
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    text-align: center;
-    margin-right: 20px;
-  }
+ 
 }
 
 @media screen and (min-width: 375px) {
@@ -192,11 +184,7 @@ h5 {
 }
 
 @media screen and (min-width: 390px) {
-  .date-exp {
-    display: flex;
-    justify-content: end;
-    margin-right: 20px;
-  }
+ 
 
   .description {
     font-weight: 100;
