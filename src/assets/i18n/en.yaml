@@ -60,6 +60,6 @@
   "proyectoTiendaDescripcion": "Project about a store to make add, edit or delete queries to the MySQL database with the API created with Node, Express and Typescript.",
   "proyectoTiendaCompletaDescripcion": "Project about a store with login and registration with email and password or Google, in which you can add objects to the cart and buy it. Everything is saved using the Firebase database",
   "proyectoTiendaReactDescripcion": "Project created in React where it allows adding, increasing, decreasing, modifying, deleting objects in the form of a shopping cart. Work with localstorage.",
-  "proyectoGifsDescripcion":"Project created in React that allows searching for gifs and generating a list of Gifs related to the search keyword"
-
+  "proyectoGifsDescripcion":"Project created in React that allows searching for gifs and generating a list of Gifs related to the search keyword",
+  "Visitar":"Visit"
 }
