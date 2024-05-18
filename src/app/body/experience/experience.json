@@ -6,6 +6,7 @@
     "tecnologia": "React",
     "descripcionKey": "proyectoTiendaReactDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--ReactTS",
+    "visitUrl":"https://marvelous-moonbeam-89c2a5.netlify.app/",
     "etiquetas": ["React","TypeScript","CSS", "HTML"],
     "mostrado": false
   },
@@ -15,6 +16,25 @@
     "tecnologia": "React",
     "descripcionKey": "proyectoHeroesDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-heroes--ReactJs",
+    "visitUrl":"https://calm-souffle-402734.netlify.app/",
+    "etiquetas": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Firebase",
+      "Tailwind"
+    ],
+    "mostrado": false
+  },
+
+  {
+    "id": "proyectoGifs",
+    "nombre": "Proyecto Generador Gifs",
+    "tecnologia": "React",
+    "descripcionKey": "proyectoGifsDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Gifs-Searching--ReactJs",
+    "visitUrl":"https://gif-expert-react-vane.netlify.app/",
     "etiquetas": [
       "React",
       "JavaScript",
@@ -30,7 +50,8 @@
     "nombre": "Proyecto Calendario",
     "tecnologia": "React",
     "descripcionKey": "proyectoCalendarioDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-Calendario--ReacJS",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Calendario--ReactJS",
+    "visitUrl":"https://6648a6167c57cad0f5ac9312--zesty-bombolone-d60c86.netlify.app/",
     "etiquetas": [
       "React",
       "JavaScript",
@@ -47,6 +68,7 @@
     "tecnologia": "React",
     "descripcionKey": "proyectoAgendaDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-journal--ReactJs",
+    "visitUrl":"https://6648a6167c57cad0f5ac9312--zesty-bombolone-d60c86.netlify.app/",
     "etiquetas": [
       "React",
       "JavaScript",
@@ -64,6 +86,7 @@
     "tecnologia": "Angular",
     "descripcionKey": "proyectoTiendaCompletaDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular",
+    "visitUrl":"https://proyecto-tienda-completa-angular.vercel.app/",
     "etiquetas": ["Angular","TypeScript", "Tailwind", "Firebase","CSS", "HTML"],
     "mostrado": false
   },
@@ -73,6 +96,7 @@
     "tecnologia": "Angular",
     "descripcionKey": "proyectoSpotifyDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Spotify--Angular",
+    "visitUrl":"https://proyecto-spotify-angular.vercel.app/auth/login",
     "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
     "mostrado": false
   },
@@ -82,6 +106,7 @@
     "tecnologia": "Angular",
     "descripcionKey": "proyectoTiendaDescripcion",
     "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--Angular",
+    "visitUrl":"https://proyecto-tienda-angular.vercel.app/",
     "etiquetas": [
       "Angular",
       "TypeScript",
@@ -92,25 +117,6 @@
       "Express",
       "MySQL"
     ],
-    "mostrado": false
-  },
-  {
-    "id": "proyectoCalculadora",
-    "nombre": "Proyecto Calculadora",
-    "tecnologia": "Angular",
-    "descripcionKey": "proyectoCalculadoraDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-Calculadora--Angular",
-    "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
-    "mostrado": false
-  },
-
-  {
-    "id": "proyectoTfg",
-    "nombre": "Proyecto TFG",
-    "tecnologia": "PHP",
-    "descripcionKey": "proyectoTfgDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-TFG--PHP",
-    "etiquetas": ["PHP", "JavaScript", "Bootstrap", "CSS", "HTML", "MySQL"],
     "mostrado": false
   }
 ]

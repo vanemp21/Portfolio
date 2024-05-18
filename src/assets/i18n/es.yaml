@@ -36,6 +36,7 @@
     "Proyecto Héroes":"Proyecto Héroes",
     "Proyecto Calendario":"Proyecto Calendario",
     "Proyecto Agenda":"Proyecto Agenda",
+    "Proyecto Generador Gifs": "Proyecto Generador Gifs",
     "Proyecto Calculadora":"Proyecto Calculadora",
     "Proyecto Spotify":"Proyecto Spotify",
     "Proyecto TFG":"Proyecto TFG",
@@ -58,6 +59,6 @@
     "proyectoTiendaDescripcion":"Proyecto sobre una tienda para hacer consultas de añadir, editar o borrar a la base de datos MySQL con la API creada con Node, Express y Typescript.",
     "proyectoTiendaCompletaDescripcion": "Proyecto sobre una tienda con login y registro con correo y contraseña o google, el cual puedes añadir objetos al carrito y comprarlo. Todo se guarda mediante la base de datos de Firebase",
     "proyectoTiendaReactDescripcion": "Proyecto creado en React donde permite añadir, incrementar, decrementar, modificar, borrar objetos en forma de carrito de la compra. Trabaja con localstorage.",
-
+    "proyectoGifsDescripcion":"Proyecto creado en React que permite búsqueda de gifs y generar una lista de Gifs relacionados con la palabra clave de búsqueda"
   }
   

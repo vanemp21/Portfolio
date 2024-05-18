@@ -7,10 +7,13 @@
   display: flex;
   justify-content: center;
 }
-
+.date-exp{
+  margin-right: 10px;
+}
 .text-content {
   display: grid;
-  grid-template-columns: 0.75fr max-content 0.8fr;
+  grid-template-columns: 0.9fr max-content 0.90fr;
+  justify-items: end;
   color: var(--p);
   margin: 0 10px 25px;
 }
@@ -22,7 +25,7 @@
   align-items: center;
   justify-content: center;
   border-top: 2px solid var(--frst);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 20px;
 }
 
@@ -146,35 +149,45 @@ h5 {
   }
 
   .date-exp {
-    padding-right: 10px;
     display: flex;
+    width: max-content;
     justify-content: start;
     align-items: start;
     text-align: center;
+    
   }
 }
 
 @media screen and (min-width: 360px) {
   .text-content {
     display: grid;
-    grid-template-columns: 0.75fr max-content 0.75fr;
+    grid-template-columns: 0.15fr max-content 0.95fr;
     justify-content: start;
     align-items: start;
     padding-right: 5px;
   }
 
   .date-exp {
-    padding-left: 40px;
+  
     display: flex;
     justify-content: start;
     align-items: start;
     text-align: center;
+    margin-right: 20px;
   }
 }
 
 @media screen and (min-width: 375px) {
   .personal {
     margin: 0 20px;
+  }
+  .text-content{
+    grid-template-columns: max-content max-content 1fr;
+  }
+  .date-exp {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
   }
 }
 
@@ -198,6 +211,10 @@ h5 {
   .personal {
     margin: 0 30px;
   }
+  .text-content{
+    grid-template-columns: 0.9fr max-content 0.90fr;
+    justify-items: end;
+  }
 }
 
 @media screen and (min-width: 540px) {
@@ -205,6 +222,7 @@ h5 {
     flex-direction: row;
     gap: 10px;
   }
+
 }
 
 .vertical-line {
@@ -229,6 +247,7 @@ img {
   .date-exp {
     font-size: 20px;
   }
+ 
 
   .description-2 p {
     font-size: 20px;
@@ -263,6 +282,7 @@ img {
 }
 
 @media screen and (min-width: 820px) {
+ 
   .text-content-2 p {
     font-size: 25px;
   }
@@ -333,7 +353,7 @@ img {
   }
 
   .date-exp {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .description,
