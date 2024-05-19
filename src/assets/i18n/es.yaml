@@ -43,6 +43,8 @@
     "Proyecto TFG":"Proyecto TFG",
     "Proyecto Crud Tienda":"Proyecto Crud Tienda",
     "Proyecto Tienda Completa":"Proyecto Tienda Completa",
+    "Proyecto Consumición y Propinas":"Proyecto Consumición y Propinas",
+    "Proyecto Tienda Pintalabios":"Proyecto Tienda Pintalabios",
     "Proyecto Tienda":"Proyecto Tienda",
     "Idiomas":"Idiomas",
     "Español":"Español",
@@ -61,6 +63,7 @@
     "proyectoTiendaCompletaDescripcion": "Proyecto sobre una tienda con login y registro con correo y contraseña o google, el cual puedes añadir objetos al carrito y comprarlo. Todo se guarda mediante la base de datos de Firebase",
     "proyectoTiendaReactDescripcion": "Proyecto creado en React donde permite añadir, incrementar, decrementar, modificar, borrar objetos en forma de carrito de la compra. Trabaja con localstorage.",
     "proyectoGifsDescripcion":"Proyecto creado en React que permite búsqueda de gifs y generar una lista de Gifs relacionados con la palabra clave de búsqueda",
+    "proyectoPintalabiosReactDescripcion":"Proyecto creado en React que permite añadir al carrito, eliminar y hace los cálculos respectivos en base al precio de lo que hay en el carrito",
     "Visitar":"Visitar"
   }
   

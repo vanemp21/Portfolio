@@ -2,11 +2,21 @@
 
   {
     "id": "proyectoTiendaReact",
-    "nombre": "Proyecto Tienda",
+    "nombre": "Proyecto Consumición y Propinas",
     "tecnologia": "React",
     "descripcionKey": "proyectoTiendaReactDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--ReactTS",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda-Con-Propinas--ReactTS",
     "visitUrl":"https://marvelous-moonbeam-89c2a5.netlify.app/",
+    "etiquetas": ["React","TypeScript","CSS", "HTML"],
+    "mostrado": false
+  },
+  {
+    "id": "proyectoPintalabiosReact",
+    "nombre": "Proyecto Tienda Pintalabios",
+    "tecnologia": "React",
+    "descripcionKey": "proyectoPintalabiosReactDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--ReactTS",
+    "visitUrl":"https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/",
     "etiquetas": ["React","TypeScript","CSS", "HTML"],
     "mostrado": false
   },

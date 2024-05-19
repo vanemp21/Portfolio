@@ -43,6 +43,8 @@
   "Proyecto TFG": "Thesis Project",
   "Proyecto Crud Tienda":"Shop Crud Project",
   "Proyecto Tienda Completa":"Complete Shop Project",
+  "Proyecto Consumición y Propinas":"Lipstick Store Project",
+  "Proyecto Tienda Pintalabios":"",
   "Proyecto Tienda":"Shop Project",
   "Idiomas": "Languages",
   "Español": "Spanish",
@@ -61,5 +63,6 @@
   "proyectoTiendaCompletaDescripcion": "Project about a store with login and registration with email and password or Google, in which you can add objects to the cart and buy it. Everything is saved using the Firebase database",
   "proyectoTiendaReactDescripcion": "Project created in React where it allows adding, increasing, decreasing, modifying, deleting objects in the form of a shopping cart. Work with localstorage.",
   "proyectoGifsDescripcion":"Project created in React that allows searching for gifs and generating a list of Gifs related to the search keyword",
+  "proyectoPintalabiosReactDescripcion":"Project created in React that allows you to add to cart, delete and make the respective calculations based on the price of what is in the cart",
   "Visitar":"Visit"
 }
