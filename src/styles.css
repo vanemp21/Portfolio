@@ -101,9 +101,7 @@ h5 {
 .bi-star-fill {
   color: #beb507;
 }
-.level div {
-  text-align: center;
-}
+
 .languages {
   display: flex;
   justify-content: center;

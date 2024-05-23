@@ -121,7 +121,7 @@ button:hover:after {
     font-size: 25px;
   }
   form {
-    padding: 0 130px;
+    padding: 0 120px;
   }
   button,
   h5 {
@@ -132,9 +132,7 @@ button:hover:after {
   small {
     font-size: 20px;
   }
-  form {
-    padding: 0 230px 40px 230px;
-  }
+ 
   button,
   h5 {
     font-size: 25px;

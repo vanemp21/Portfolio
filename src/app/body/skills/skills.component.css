@@ -61,7 +61,13 @@
   
   @media screen and (min-width: 1024px) {
   [class^="ico-"] {
-  font-size:30px;
+  font-size:22px;
   font-weight:400
   }
+
+  @media screen and (min-width: 1200px) {
+    [class^="ico-"] {
+    font-size:18px;
+ 
+    }}
   }

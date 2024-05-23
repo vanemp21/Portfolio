@@ -117,6 +117,7 @@ h5 {
   font-weight: 700;
   font-size: 12px;
   width: max-content;
+  min-width:129px;
   overflow: hidden;
   position: relative;
   border-radius: 10px;
@@ -139,6 +140,15 @@ h5 {
 .labor,
 .languages h5 {
   margin-top: 20px;
+}
+.level{
+  display: grid;
+    width: max-content;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    align-items: start;
+    column-gap: 30px;
 }
 
 @media screen and (min-width: 350px) {
@@ -207,7 +217,7 @@ h5 {
 
 @media screen and (min-width: 540px) {
   .buttons {
-    flex-direction: row;
+ 
     gap: 10px;
   }
 
@@ -367,6 +377,6 @@ img {
   }
 
   .text-content-2 {
-    grid-template-columns: 0.35fr 0.35fr;
+    grid-template-columns: 0.25fr 0.35fr;
   }
 }
