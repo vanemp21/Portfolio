@@ -194,8 +194,6 @@ h5 {
 }
 
 @media screen and (min-width: 390px) {
- 
-
   .description {
     font-weight: 100;
   }
@@ -217,12 +215,9 @@ h5 {
 
 @media screen and (min-width: 540px) {
   .buttons {
- 
     gap: 10px;
   }
-
 }
-
 .vertical-line {
   margin-left: 0;
 }
@@ -258,10 +253,6 @@ img {
   .buttons {
     padding-left: 20px;
     gap: 10px;
-  }
-
-  .description {
-    text-align: justify;
   }
 
   .project-name,
@@ -313,7 +304,6 @@ img {
   .text-content-2 p,
   .text-content-3,
   .description,
-  .date-exp,
   .text-content-2 small {
     font-size: 24px;
   }
@@ -350,9 +340,7 @@ img {
     padding-right: 0;
   }
 
-  .date-exp {
-    font-size: 22px;
-  }
+ 
 
   .description,
   .text-content-2 small {
