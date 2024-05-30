@@ -11,4 +11,3 @@ bootstrapApplication(AppComponent, {
   providers:[provideHttpClient(), provideTranslation()]
 })
   .catch((err) => console.error(err));
-

@@ -7,8 +7,8 @@
 }
 
 .content {
-  margin: 0 30px;
-  min-height: 430px;
+  margin: 0 30px 30px 30px;
+  min-height: 230px;
 }
 
 hr {
@@ -45,7 +45,7 @@ p {
   justify-content: end;
   align-items: center;
   flex-direction: column;
-  padding: 30px 15px 30px 30px;
+  padding: 0 15px 30px 30px;
   text-align: center;
 }
 
@@ -56,6 +56,7 @@ button {
   font-weight: 700;
   background-color: transparent;
   width: max-content;
+  margin-top:15px;
 }
 
 img {
@@ -63,6 +64,7 @@ img {
   border: 2px solid var(--p);
   margin-left: 10px;
   margin-right: 10px;
+  margin: 0 10px 40px 10px;
 }
 
 .text-container a {
