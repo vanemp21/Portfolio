@@ -1,6 +1,22 @@
 [
 
   {
+    "id": "proyectoCalorias",
+    "nombre": "Proyecto Contador de Calorías",
+    "tecnologia": "React",
+    "descripcionKey": "proyectoCaloriasDescripcion",
+    "githubUrl": "https://github.com/vanemp21/Proyecto-Contador-Calorias--ReactTS",
+    "visitUrl":"https://6658d30ccf4d19679063f095--remarkable-frangipane-e4a76b.netlify.app/",
+    "etiquetas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "CSS",
+      "HTML"
+    ],
+    "mostrado": false
+  },
+  {
     "id": "proyectoTiendaReact",
     "nombre": "Proyecto Consumición y Propinas",
     "tecnologia": "React",
@@ -109,24 +125,6 @@
     "visitUrl":"https://proyecto-spotify-angular.vercel.app/auth/login",
     "etiquetas": ["Angular", "TypeScript", "Bootstrap", "CSS", "HTML"],
     "mostrado": false
-  },
-  {
-    "id": "proyectoTienda",
-    "nombre": "Proyecto Crud Tienda",
-    "tecnologia": "Angular",
-    "descripcionKey": "proyectoTiendaDescripcion",
-    "githubUrl": "https://github.com/vanemp21/Proyecto-Tienda--Angular",
-    "visitUrl":"https://proyecto-tienda-angular.vercel.app/",
-    "etiquetas": [
-      "Angular",
-      "TypeScript",
-      "Bootstrap",
-      "CSS",
-      "HTML",
-      "Node",
-      "Express",
-      "MySQL"
-    ],
-    "mostrado": false
   }
+  
 ]
