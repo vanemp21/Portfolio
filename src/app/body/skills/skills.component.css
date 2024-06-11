@@ -1,13 +1,14 @@
 .content {
   display:flex;
   flex-direction:column;
-  gap:20px
+  gap:20px;
+
   }
   
   img {
-  width:60px;
+  width:100px;
   height:auto;
-  border-radius:30px
+  border-radius:120px
   }
   
   .ico-ts img,.ico-mysql img,.ico-drupal img,.ico-bootstrap,.ico-firebase,.ico-tailwind,.ico-github,.ico-docker {
@@ -18,7 +19,7 @@
   display:grid;
   justify-content:center;
   align-items:center;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr;
   gap:25px
   }
   
@@ -46,6 +47,54 @@
   border-width:3px;
   margin:20px
   }
+
+  /*---------------*/
+  .flip-container {
+    perspective: 1000px;
+    color:white;
+  }
+  
+  .flipper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  
+  .front{
+    background-color:var(--bg1);
+    border-radius: 10px;
+  }
+  .back {
+    background-color:var(--bg1);
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    border-radius: 10px;
+    color:white;
+    padding-top:2px;
+    font-size: 14.2px;
+  }
+  
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg);
+  }
+  
   
   @media screen and (min-width: 768px) {
   .skills {
