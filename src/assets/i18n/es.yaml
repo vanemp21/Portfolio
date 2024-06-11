@@ -64,6 +64,16 @@
     "proyectoTiendaReactDescripcion": "Proyecto creado en React donde permite añadir, incrementar, decrementar, modificar, borrar objetos en forma de carrito de la compra. Trabaja con localstorage.",
     "proyectoGifsDescripcion":"Proyecto creado en React que permite búsqueda de gifs y generar una lista de Gifs relacionados con la palabra clave de búsqueda",
     "proyectoPintalabiosReactDescripcion":"Proyecto creado en React que permite añadir al carrito, eliminar y hace los cálculos respectivos en base al precio de lo que hay en el carrito",
-    "Visitar":"Visitar"
+    "Visitar":"Visitar",
+    "Componentes":"Componentes",
+    "Directivas":"Directivas",
+    "Servicios":"Servicios",
+    "Rutas":"Rutas",
+    "Formularios reactivos":"Formularios reactivos",
+    "Componentes Funcionales":"Componentes Funcionales",
+    "Eventos y manejo del estado":"Eventos y manejo del estado",
+    "Creación y Administración de Contenido":"Creación y Administración de Contenido",
+    "Desarrollo de Temas y Módulos":"Desarrollo de Temas y Módulos",
+    "Gestión de Configuración":"Gestión de Configuración",
   }
   

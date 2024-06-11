@@ -25,5 +25,5 @@ export class ExperienceComponent {
     proyecto.mostrado = !proyecto.mostrado;
   }
 
-  constructor(private translateService: TranslateService) {}
+
 }
