@@ -46,24 +46,38 @@
         >
           <p>{{ proyecto.descripcionKey | translate }}</p>
         </div>
+       
       </div>
+      
     </div>
+
   </div>
   <div class="languages">
     <h5>{{ "Idiomas" | translate }}</h5>
     <div class="text-content-3">
-      <div class="level">
-        <ng-container *ngFor="let idioma of idiomas">
-          <div>{{ idioma.nombre | translate }}</div>
-          <div [class]="'lvls' + idioma.puntuacion">
-            <i
-              class="bi bi-star-fill"
-              *ngFor="let _ of generarEstrellas(idioma.puntuacion)"
-            ></i>
-            <br /><br />
-          </div>
-        </ng-container>
-      </div>
+
+     <div class="languages-grid">
+      <span>{{"Español" | translate}}</span> 
+      <span>{{"Inglés" | translate}}</span>
+      <span>{{"Catalán" | translate}}</span>
+      <span>{{"Valenciano" | translate}}</span>
+      <span>{{"Alemán" | translate}}</span>
+     </div>
+     <div class="point-grid">
+      <span>&#9679;--------&#9679;</span>
+      <span>&#9679;--------&#9679;</span>
+      <span>&#9679;--------&#9679;</span>
+      <span>&#9679;--------&#9679;</span>
+      <span>&#9679;--------&#9679;</span>
+     </div>
+     <div class="level-grid">
+      <span>{{"Nativo" | translate}}</span>
+      <span>{{"Intermedio" | translate}}</span>
+      <span>{{"Experto" | translate}}</span>
+      <span>{{"Experto" | translate}}</span>
+      <span>{{"Bajo" | translate}}</span>
+     </div>
+    
     </div>
   </div>
 </div>
