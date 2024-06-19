@@ -98,8 +98,9 @@
   
   @media screen and (min-width: 768px) {
   .skills {
-  grid-template-columns:1fr 1fr 1fr 1fr
+  grid-template-columns:1fr 1fr 1fr 
   }
+
   }
   
   @media screen and (min-width: 820px) {
@@ -113,6 +114,9 @@
   font-size:22px;
   font-weight:400
   }
+  .skills {
+    grid-template-columns:1fr 1fr 1fr 1fr
+    }
 
   @media screen and (min-width: 1200px) {
     [class^="ico-"] {

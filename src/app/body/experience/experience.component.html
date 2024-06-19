@@ -14,70 +14,81 @@
         </div>
       </div>
     </div>
+    <div class="projects">
+      <h5>{{ "Últimos Proyectos" | translate }}</h5>
 
-    <div class="personal">
-      <h5>{{ "Personal" | translate }}</h5>
-      <div class="text-content-2" *ngFor="let proyecto of proyectos">
-        <p>
-          <span class="project-name"> {{ proyecto.nombre | translate }}</span>
-          <span class="etiquetas">
-            <span
-              *ngFor="let etiqueta of proyecto.etiquetas"
-              [ngClass]="etiqueta"
-            >
-              <small class="tags"> {{ etiqueta }}</small></span
-            ></span
-          >
-        </p>
+     
+      <div class="project-images">
+   
+        <div class="mayballine-project">
+          <h4 class="react-title">React v.18</h4>
+          <img src="../../../assets/imagenes/preview-mayballine.PNG" alt="">
+          <div class="description-projects mayballine-description">
+            {{"Descripcion mayballine" | translate}}
+            <br/>
+            <br />
+            <div class="project-info maybellin-info">
+        <div>
+            <span>|</span> React <span>|</span> TypeScript
+            <span>|</span> HTML
+            <span>|</span> CSS <span>|</span> Bootstrap <span>|</span></div>
+            <div class="icons-projects">
 
-        <div class="buttons">
-          <button class="border-transition" (click)="mostrarTexto(proyecto)">
-            <span>{{ "Descripción" | translate }}</span></button
-          ><a href="{{ proyecto.githubUrl }}" target="_blank"
-            ><button class="border-transition"><span>Github</span></button></a
-          ><a href="{{ proyecto.visitUrl }}" target="_blank"
-          ><button class="border-transition"><span>{{"Visitar" | translate}}</span></button></a
-        >
+
+             <p><a href="https://github.com/vanemp21/Proyecto-Tienda--ReactTS"><i class="bi bi-github"></i></a></p>
+             <p><a href="https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/"><i class="bi bi-browser-chrome"></i></a></p> 
+            </div>
+          </div>
         </div>
+   </div>
+  
+        <div class="shop-project">
+          <h4 class="angular-title">Angular v.16</h4>
+          <img src="../../../assets/imagenes/preview-shop.PNG" alt="">
+          <div class="description-projects">
+            {{"Descripcion tienda angular" | translate}}
+            <br/> <br />
+            <div class="project-info">
+            <div>
+            <span>|</span> Angular <span>|</span> TypeScript
+            <span>|</span> Firebase <span>|</span> Tailwind <span>|</span> HTML
+            <span>|</span> CSS <span>|</span></div>
+            <div class="icons-projects">
+              <p><a href="https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular"><i class="bi bi-github"></i></a></p>
+             <p><a href="https://proyecto-tienda-completa-angular.vercel.app/"><i class="bi bi-browser-chrome"></i></a></p> 
+            </div>
+          </div>
+          </div>
 
-        <div
-          class="description-2 grid-item special"
-          *ngIf="proyecto.mostrado && proyecto.descripcionKey"
-        >
-          <p>{{ proyecto.descripcionKey | translate }}</p>
         </div>
-       
+ 
       </div>
-      
     </div>
-
-  </div>
-  <div class="languages">
-    <h5>{{ "Idiomas" | translate }}</h5>
-    <div class="text-content-3">
-
-     <div class="languages-grid">
-      <span>{{"Español" | translate}}</span> 
-      <span>{{"Inglés" | translate}}</span>
-      <span>{{"Catalán" | translate}}</span>
-      <span>{{"Valenciano" | translate}}</span>
-      <span>{{"Alemán" | translate}}</span>
-     </div>
-     <div class="point-grid">
-      <span>&#9679;--------&#9679;</span>
-      <span>&#9679;--------&#9679;</span>
-      <span>&#9679;--------&#9679;</span>
-      <span>&#9679;--------&#9679;</span>
-      <span>&#9679;--------&#9679;</span>
-     </div>
-     <div class="level-grid">
-      <span>{{"Nativo" | translate}}</span>
-      <span>{{"Intermedio" | translate}}</span>
-      <span>{{"Experto" | translate}}</span>
-      <span>{{"Experto" | translate}}</span>
-      <span>{{"Bajo" | translate}}</span>
-     </div>
-    
+    <div class="languages">
+      <h5>{{ "Idiomas" | translate }}</h5>
+      <div class="text-content-3">
+        <div class="languages-grid">
+          <span>{{ "Español" | translate }}</span>
+          <span>{{ "Inglés" | translate }}</span>
+          <span>{{ "Catalán" | translate }}</span>
+          <span>{{ "Valenciano" | translate }}</span>
+          <span>{{ "Alemán" | translate }}</span>
+        </div>
+        <div class="point-grid">
+          <span>&#9679;--------&#9679;</span>
+          <span>&#9679;--------&#9679;</span>
+          <span>&#9679;--------&#9679;</span>
+          <span>&#9679;--------&#9679;</span>
+          <span>&#9679;--------&#9679;</span>
+        </div>
+        <div class="level-grid">
+          <span>{{ "Nativo" | translate }}</span>
+          <span>{{ "Intermedio" | translate }}</span>
+          <span>{{ "Experto" | translate }}</span>
+          <span>{{ "Experto" | translate }}</span>
+          <span>{{ "Bajo" | translate }}</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>

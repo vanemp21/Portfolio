@@ -18,69 +18,6 @@
   margin: 0 10px 25px;
 }
 
-.text-content-2 {
-  display: grid;
-  grid-template-columns: 0.8fr 0.2fr;
-  color: var(--p);
-  align-items: center;
-  justify-content: center;
-  border-top: 2px solid var(--frst);
-  margin-bottom: 20px;
-  padding-top: 20px;
-}
-
-.etiquetas {
-  display: grid;
-  grid-template-columns: max-content max-content;
-}
-
-.etiquetas span {
-  padding-right: 20px;
-}
-
-.grid-item.special {
-  grid-column-start: 1;
-  grid-column-end: span 3;
-  padding: 0 5px;
-}
-
-.text-content-2:last-of-type {
-  border-bottom: 2px solid var(--frst);
-}
-
-.text-content-2 p {
-  margin-left: 10px;
-  margin-right: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
-
-.project-name {
-  font-size: 18px;
-  display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.etiqueta {
-  display: flex;
-}
-
-.description-2 {
-  grid-column: 3;
-  grid-row: 2;
-  font-weight: lighter;
-}
-
-.description {
-  font-size: 15px;
-  margin-top: 10px;
-  grid-column: 3;
-  grid-row: 2;
-  font-weight: lighter;
-}
-
 .company {
   padding-left: 15px;
 }
@@ -100,38 +37,89 @@ h5 {
   display: flex;
   justify-content: center;
 }
-
-.buttons {
+.projects h5 {
+  margin-bottom: 35px;
+  margin-top: 40px;
+}
+.project-images {
   display: flex;
-  row-gap: 10px;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.project-images a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.mayballine-project,
+.shop-project {
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.buttons button {
-  color: var(--frst);
-  padding: 8px 10px;
-  background-color: transparent;
-  border: 3px solid var(--frst);
-  border-radius: 5px;
-  font-weight: 700;
-  font-size: 12px;
-  width: max-content;
-  min-width: 129px;
-  overflow: hidden;
-  position: relative;
+  width: 90%;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   border-radius: 10px;
-  z-index: 20;
+}
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.description-projects {
+  color: var(--p);
+  padding: 20px 10px 10px 10px;
+  background-color: var(--bg1);
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+}
+.description-projects span {
+  color: var(--frst);
+  font-weight: bold;
+}
+.mayballine-project:hover,
+.shop-project:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
 }
 
-.buttons a button {
-  padding: 8px 24px;
+.icons-projects {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  height: 25px;
+  justify-content: end;
 }
-
-.text-content-2:last-of-type{
-  padding-bottom: 20px;
+.bi-github,
+.bi-browser-chrome {
+  font-size: 18px;
+  color: var(--p);
 }
+.project-info{
+  display: grid;
+  grid-template-rows:1fr 1fr;
+  gap:5px;
 
+  align-items: end;
+  
+}
+.angular-title{
+color:red;
+margin-top:10px;
+}
+.react-title{
+  color:rgb(17, 141, 189);
+  margin-top:10px;
+}
 
 @media screen and (min-width: 350px) {
   .text-content {
@@ -161,9 +149,6 @@ h5 {
 }
 
 @media screen and (min-width: 375px) {
-  .personal {
-    margin: 0 20px;
-  }
   .text-content {
     grid-template-columns: max-content max-content 1fr;
   }
@@ -175,88 +160,50 @@ h5 {
 }
 
 @media screen and (min-width: 390px) {
-  .description {
-    font-weight: 100;
-  }
-
   h5 {
     font-size: 22px;
   }
 }
 
 @media screen and (min-width: 412px) {
-  .personal {
-    margin: 0 30px;
-  }
   .text-content {
     grid-template-columns: 0.9fr max-content 0.9fr;
     justify-items: end;
   }
 }
 
-@media screen and (min-width: 540px) {
-  .buttons {
-    gap: 10px;
-  }
-}
 .vertical-line {
   margin-left: 0;
 }
 
-img {
-  width: 25px;
-  height: auto;
-  border: 1px solid #fff;
-  border-radius: 30px;
-}
-
-
 @media screen and (min-width: 768px) {
   .text-content-3,
-  .buttons button,
   .date-exp {
     font-size: 20px;
   }
-
-  .description-2 p {
-    font-size: 20px;
-  }
-
   h5 {
     font-size: 28px;
   }
-  p,
-  .buttons {
-    padding-left: 20px;
-    gap: 10px;
-  }
-
-  .project-name,
   .company h6 {
     font-size: 23px;
   }
-
-  .tags,
   .company {
     font-size: 16px;
   }
-
-  .personal {
-    margin: 0 50px;
+  .mayballine-project,
+  .shop-project {
+    width: 75%;
   }
-}
-
-@media screen and (min-width: 820px) {
-  .text-content-2 p {
+  .description-projects {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .bi-github,
+  .bi-browser-chrome {
     font-size: 25px;
   }
-
-  .text-content-2 small {
-    font-size: 18px;
-  }
-
-  .project-name {
-    font-size: 28px;
+  .icons-projects {
+    height: 35px;
   }
 }
 
@@ -265,31 +212,22 @@ img {
   .date-exp {
     font-size: 23px;
   }
-
-  .tags {
-    font-size: 18px;
-  }
-
-  .project-name {
-    font-size: 27px;
-  }
 }
 
 @media screen and (min-width: 912px) {
-  .text-content-2 p,
   .text-content-3,
-  .description,
-  .text-content-2 small {
+  .description {
     font-size: 24px;
   }
-  .tags {
-    font-size: 20px;
-  }
+
   .company h6 {
     font-size: 27px;
   }
   .company {
     padding-left: 25px;
+  }
+  .description-projects {
+    font-size: 25px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -301,46 +239,69 @@ img {
     font-size: 33px;
   }
 
-  .project-name {
-    font-size: 33px;
-  }
-
-  .tags {
-    font-size: 25px !important;
-  }
-
-  .description-2 p {
-    font-size: 26px;
-    display: flex;
-    padding-right: 0;
-  }
-  .languages h5{
+  .languages h5 {
     margin-bottom: 40px;
   }
 
-  .description,
-  .text-content-2 small {
+  .description {
     font-size: 25px;
   }
-  .buttons button {
-    font-size: 20px;
+
+  .description-projects {
+    font-size: 27px;
+  }
+  .bi-github,
+  .bi-browser-chrome {
+    font-size: 35px;
+  }
+  .icons-projects {
+    height: 55px;
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .project-name {
-    font-size: 26px;
+  .description, .date-exp {
+    font-size: 17px;
   }
 
-  .tags {
-    font-size: 15px !important;
+  .maybellin-info {
+    padding-top: 22px; 
   }
+  .project-images {
+    flex-direction: row;
+  }
+  .description-projects {
+    font-size: 17px;
+  }
+}
+ @media screen and (min-width: 1300px) {
+  .maybellin-info {
+   padding-top: 49px;
+  }
+} @media screen and (min-width: 1638px) {
+  .maybellin-info {
+   padding-top: 21px;
+  }
+}
 
-  .description-2 p,
-  .description {
-    font-size: 20px;
+@media screen and (min-width: 1669px) {
+  .maybellin-info {
+  padding-top: 48px;
   }
+}
+@media screen and (min-width: 1714px) {
+  .maybellin-info {
+  padding-top: 51px;
+  }
+}
+@media screen and (min-width: 1757px) {
+  .maybellin-info {
+    padding-top: 24px;
+  }
+}
+@media screen and (min-width: 1907px) {
+  .maybellin-info {
+    padding-top: 48px;
+  } 
 
-  .text-content-2 {
-    grid-template-columns: 0.25fr 0.35fr;
-  }
 }
