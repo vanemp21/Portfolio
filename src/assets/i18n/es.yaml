@@ -35,6 +35,7 @@
     "Laboral texto":"Desarrollé la parte front responsiva y dinámica con un enfoque en la accesibilidad y la usabilidad con Drupal, además de gestión de módulos y plantillas Twig custom para el ayuntamiento de Palencia y la diputación de Sevilla. También hice correcciones en proyectos de Angular. Tecnologías utilizadas Angular, Drupal, PHP, PostgresSQL, Twig, GitLab, HTML, CSS, Bootstrap, JavaScript, TypeScript",
     "Descripcion tienda angular":"Proyecto que simula una tienda con registro, login añadido en la base de datos, tanto por correo como por google y que permite añadir, eliminar items traidos desde una API al carrito, ver los productos en carrito y ver el precio correspondiente, además de ver y editar tus datos de perfil.",
     "Descripcion mayballine":"Proyecto que simula una tienda en el que puedes añadir, incrementar,decrementar, vaciar el carrito de compras, además de ver el precio correspondiente en todo momento y con guardado en localStorage.",
+    "Ultimos Proyectos":"Últimos Proyectos",
     "Idiomas":"Idiomas",
     "Español":"Español",
     "Inglés":"Inglés",
