@@ -6,62 +6,219 @@
     <div class="labor">
       <h5>{{ "Laboral" | translate }}</h5>
       <div class="text-content">
-        <div class="date-exp">01-10-23 | 05-04-24</div>
+        <div class="date-exp"><div class="date-exp-background">01-10-23 | 05-04-24</div></div> 
         <div class="vertical-line"></div>
         <div class="company">
           <h6>TicSmart S.L</h6>
-          <div class="description">{{ "Laboral texto" | translate }}</div>
+          <div class="description">
+            {{"Responsabilidades:" | translate}}
+            <ul>
+              <li class="li-experience">
+                {{ "Front-end:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Desarrollé interfaces de usuario utilizando Angular y TypeScript."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Corregí errores y creé componentes reutilizables en Angular."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Trabajé en la parte front-end de Drupal, incluyendo la personalización de temas y estilos."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Back-end:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Modifiqué y personalicé plantillas utilizando Twig en el Layout Builder de Drupal."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Configuré y gestioné formularios web con Webform."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Implementé funcionalidades de correo electrónico con Simplenews."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Desarrollé y mantuve módulos personalizados y funcionalidades utilizando PHP en Drupal."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Gestión de Contenido:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Administré y gestioné contenido en Drupal." | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Configuré y utilicé herramientas de gestión de contenido en Drupal."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Gestión de Dependencias y Herramientas:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Utilicé Composer para gestionar dependencias de PHP."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Utilicé Drush para la administración en línea de comandos de Drupal."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Despliegue y Pruebas:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Desplegué aplicaciones en entornos de prueba para pruebas automatizadas con Cypress."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Desplegué en entornos de desarrollo utilizando PostgreSQL como base de datos."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Colaboración y Mejora Continua:" | translate }}
+                <ul class="li-li-experience">
+                  <li>
+                    {{
+                      "Colaboré con equipos multidisciplinarios para asegurar la calidad y funcionalidad de las aplicaciones."
+                        | translate
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "Participé en revisiones de código y optimización del rendimiento."
+                        | translate
+                    }}
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">
+                {{ "Tecnologías utilizadas:" | translate }}
+                <ul class="li-li-experience li-li-experience-tech">
+                  <li>
+                    <span>|</span> Angular <span>|</span> Drupal
+                    <span>|</span> PHP <span>|</span> JavaScript
+                    <span>|</span> TypeScript <span>|</span> PostgresSQL
+                    <span>|</span> Twig <span>|</span> GitLab <span>|</span> Git
+                    <span>|</span> HTML <span>|</span> CSS
+                    <span>|</span> Bootstrap <span>|</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="li-experience">{{"Logros:"|translate}}
+                <ul class="li-li-experience">
+                  <li>{{"Ayudé a los compañeros explicando módulos y funcionalidades de Drupal."|translate}}</li>
+                  <li>{{"Ayudé al equipo a mantenerse por delante del cronograma del sprint."|translate}}</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
     <div class="projects">
       <h5>{{ "Ultimos Proyectos" | translate }}</h5>
 
-     
       <div class="project-images">
-   
         <div class="mayballine-project">
           <h4 class="react-title">React v.18</h4>
-          <img src="../../../assets/imagenes/preview-mayballine.PNG" alt="">
+          <img src="../../../assets/imagenes/preview-mayballine.PNG" alt="" />
           <div class="description-projects mayballine-description">
-            {{"Descripcion mayballine" | translate}}
-            <br/>
+            {{ "Descripcion mayballine" | translate }}
+            <br />
             <br />
             <div class="project-info maybellin-info">
-        <div>
-            <span>|</span> React <span>|</span> TypeScript
-            <span>|</span> HTML
-            <span>|</span> CSS <span>|</span> Bootstrap <span>|</span></div>
-            <div class="icons-projects">
-
-
-             <p><a href="https://github.com/vanemp21/Proyecto-Tienda--ReactTS"><i class="bi bi-github"></i></a></p>
-             <p><a href="https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/"><i class="bi bi-browser-chrome"></i></a></p> 
+              <div>
+                <span>|</span> React <span>|</span> TypeScript
+                <span>|</span> HTML <span>|</span> CSS <span>|</span> Bootstrap
+                <span>|</span>
+              </div>
+              <div class="icons-projects">
+                <p>
+                  <a href="https://github.com/vanemp21/Proyecto-Tienda--ReactTS"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </p>
+                <p>
+                  <a
+                    href="https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-   </div>
-  
+
         <div class="shop-project">
           <h4 class="angular-title">Angular v.16</h4>
-          <img src="../../../assets/imagenes/preview-shop.PNG" alt="">
+          <img src="../../../assets/imagenes/preview-shop.PNG" alt="" />
           <div class="description-projects">
-            {{"Descripcion tienda angular" | translate}}
-            <br/> <br />
+            {{ "Descripcion tienda angular" | translate }}
+            <br />
+            <br />
             <div class="project-info">
-            <div>
-            <span>|</span> Angular <span>|</span> TypeScript
-            <span>|</span> Firebase <span>|</span> Tailwind <span>|</span> HTML
-            <span>|</span> CSS <span>|</span></div>
-            <div class="icons-projects">
-              <p><a href="https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular"><i class="bi bi-github"></i></a></p>
-             <p><a href="https://proyecto-tienda-completa-angular.vercel.app/"><i class="bi bi-browser-chrome"></i></a></p> 
+              <div>
+                <span>|</span> Angular <span>|</span> TypeScript
+                <span>|</span> Firebase <span>|</span> Tailwind
+                <span>|</span> HTML <span>|</span> CSS <span>|</span>
+              </div>
+              <div class="icons-projects">
+                <p>
+                  <a
+                    href="https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </p>
+                <p>
+                  <a href="https://proyecto-tienda-completa-angular.vercel.app/"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </p>
+              </div>
             </div>
           </div>
-          </div>
-
         </div>
- 
       </div>
     </div>
     <div class="languages">

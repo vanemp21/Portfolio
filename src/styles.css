@@ -61,3 +61,11 @@ h5 {
   margin-bottom: 20px;
   margin-left:-20px;
 }
+.angular-title{
+  color:red;
+  margin-top:10px;
+  }
+  .react-title{
+    color:rgb(17, 141, 189);
+    margin-top:10px;
+  }

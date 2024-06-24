@@ -7,8 +7,11 @@
   display: flex;
   justify-content: center;
 }
-.date-exp {
-  margin-right: 10px;
+
+.date-exp-background{
+  background-color: #712f45;
+  border-radius: 5px;
+  padding:5px;
 }
 .text-content {
   display: grid;
@@ -25,7 +28,7 @@
 .vertical-line {
   grid-column: 2;
   width: 2px;
-  height: 320px;
+  height: 100%;
   margin-left: 10px;
   background-color: var(--frst);
   transform: rotate(180deg);
@@ -108,19 +111,29 @@ img {
   display: grid;
   grid-template-rows:1fr 1fr;
   gap:5px;
-
   align-items: end;
   
 }
-.angular-title{
-color:red;
-margin-top:10px;
+
+ul li, .li-li-experience span {
+  color:var(--frst)
 }
-.react-title{
-  color:rgb(17, 141, 189);
-  margin-top:10px;
+ul.li-li-experience li {
+  color: var(--p)
 }
 
+@media screen and (min-width:300px) and (max-width:500px) {
+  ul,li{
+    padding:0 !important;
+    list-style: none;
+  }
+  ul.li-li-experience li::before{
+    content: "-";
+  }
+  ul.li-li-experience-tech li::before{
+    content: "";
+  }
+}
 @media screen and (min-width: 350px) {
   .text-content {
     display: flex;
