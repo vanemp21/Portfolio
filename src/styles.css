@@ -69,3 +69,6 @@ h5 {
     color:rgb(17, 141, 189);
     margin-top:10px;
   }
+  .li-achivement-tech{
+    list-style: none;
+  }
