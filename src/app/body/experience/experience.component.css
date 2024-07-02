@@ -44,75 +44,81 @@ h5 {
   margin-bottom: 35px;
   margin-top: 40px;
 }
-.project-images {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
-.project-images a {
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-}
-
-.mayballine-project,
-.shop-project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 90%;
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-  border-radius: 10px;
-}
+ 
 img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
 }
-.description-projects {
-  color: var(--p);
-  padding: 20px 10px 10px 10px;
-  background-color: var(--bg1);
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-size: 14px;
-  margin: 0;
-  position: relative;
-}
-.description-projects span {
-  color: var(--frst);
-  font-weight: bold;
-}
-.mayballine-project:hover,
-.shop-project:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-}
-
-.icons-projects {
-  margin-top: 12px;
-  display: flex;
-  gap: 10px;
-  height: 25px;
-  justify-content: end;
-}
+ 
 .bi-github,
 .bi-browser-chrome {
   font-size: 18px;
   color: var(--p);
 }
-.project-info{
+
+.proyectos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.proyectos h5{
+  margin-bottom: 30px;
+}
+.projects-flex{
   display: grid;
-  grid-template-rows:1fr 1fr;
-  gap:5px;
-  align-items: end;
-  
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap:40px;
+}
+.angular-title,.react-title{
+  display: flex;
+  justify-content: center;
+
+}
+.project-react,.project-angular{
+  background-color: var(--bg1);
+  display: grid;
+  grid-template-rows: 0.1fr 0.3fr 0.6fr 0.4fr 0.2fr;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  position: relative;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.project-angular:hover,.project-react:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.project-technology{
+  color:var(--p);
+  padding:0 12px;
+
+}
+.project-technology span{
+  color:var(--frst);
+}
+.icons-projects{
+display: flex;
+gap:10px;
+justify-content: end;
+height: 50px;
+padding:0 15px;
+position: absolute;
+bottom: 0px;
+right: 0;
+margin: 10px;
+}
+ 
+.project-description{
+  color:var(--p);
+  padding:15px;
+}
+
+.bi-github, .bi-browser-chrome{
+  font-size:35px;
 }
 
 ul li, .li-li-experience span {
@@ -121,6 +127,7 @@ ul li, .li-li-experience span {
 ul.li-li-experience li {
   color: var(--p)
 }
+
 
 @media screen and (min-width:300px) and (max-width:500px) {
   ul,li{
@@ -185,9 +192,9 @@ ul.li-li-experience li {
   }
 }
 
-.vertical-line {
+/* .vertical-line {
   margin-left: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .text-content-3,
@@ -203,21 +210,22 @@ ul.li-li-experience li {
   .company {
     font-size: 16px;
   }
-  .mayballine-project,
-  .shop-project {
-    width: 75%;
+  
+  .project-description, .project-technology{
+    font-size:20px;
   }
-  .description-projects {
-    font-size: 20px;
-    padding-left: 15px;
+  .bi-github, .bi-browser-chrome{
+    font-size:45px;
   }
-  .bi-github,
-  .bi-browser-chrome {
-    font-size: 25px;
-  }
-  .icons-projects {
-    height: 35px;
-  }
+  .project-react h4, .project-angular h4{
+    font-size:30px;
+    margin-top:10px;
+   }
+   .icons-projects{
+    bottom: 20px;
+   }
+
+ 
 }
 
 @media screen and (min-width: 853px) {
@@ -225,6 +233,12 @@ ul.li-li-experience li {
   .date-exp {
     font-size: 23px;
   }
+  .project-react,.project-angular{
+    background-color: var(--bg1);
+    display: grid;
+    grid-template-rows: 0.2fr 0.3fr 0.4fr 0.1fr 0.2fr;}
+ 
+
 }
 
 @media screen and (min-width: 912px) {
@@ -239,9 +253,14 @@ ul.li-li-experience li {
   .company {
     padding-left: 25px;
   }
-  .description-projects {
-    font-size: 25px;
+  .project-description, .project-technology{
+    font-size:28px;
   }
+  .bi-github, .bi-browser-chrome{
+    font-size:50px;
+  }
+
+ 
 }
 @media screen and (min-width: 1024px) {
   .company {
@@ -259,62 +278,34 @@ ul.li-li-experience li {
   .description {
     font-size: 25px;
   }
-
-  .description-projects {
-    font-size: 27px;
-  }
-  .bi-github,
-  .bi-browser-chrome {
-    font-size: 35px;
-  }
-  .icons-projects {
-    height: 55px;
-    margin-right: 10px;
-  }
+.projects-flex{
+  grid-template-columns: 1fr 1fr;
 }
+
+
+ .project-angular h4{
+  margin-bottom:12px;
+ }
+  .project-react,.project-angular{
+    background-color: var(--bg1);
+    display: grid;
+  
+    grid-template-rows: 0.1fr 0.3fr 0.6fr 0.1fr 0.2fr;}
+ .project-description, .project-technology{
+  font-size:18px;
+ }
+ .bi-github, .bi-browser-chrome{
+  font-size:35px;
+ }
+ .icons-projects{
+  bottom: 0;
+ }
+}
+ 
 @media screen and (min-width: 1200px) {
   .description, .date-exp {
     font-size: 17px;
   }
 
-  .maybellin-info {
-    padding-top: 22px; 
-  }
-  .project-images {
-    flex-direction: row;
-  }
-  .description-projects {
-    font-size: 17px;
-  }
 }
- @media screen and (min-width: 1300px) {
-  .maybellin-info {
-   padding-top: 49px;
-  }
-} @media screen and (min-width: 1638px) {
-  .maybellin-info {
-   padding-top: 21px;
-  }
-}
-
-@media screen and (min-width: 1669px) {
-  .maybellin-info {
-  padding-top: 48px;
-  }
-}
-@media screen and (min-width: 1714px) {
-  .maybellin-info {
-  padding-top: 51px;
-  }
-}
-@media screen and (min-width: 1757px) {
-  .maybellin-info {
-    padding-top: 24px;
-  }
-}
-@media screen and (min-width: 1907px) {
-  .maybellin-info {
-    padding-top: 25px;
-  } 
-
-}
+ 

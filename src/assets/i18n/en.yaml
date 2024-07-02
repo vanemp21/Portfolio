@@ -33,7 +33,7 @@
   "Experiencia": "Experience",
   "Laboral": "Labor",
   "Laboral texto": "I developed the responsive and dynamic front-end with a focus on accessibility and usability with Drupal, as well as management of custom Twig modules and templates for the city council of Palencia and the provincial council of Seville. I also made fixes in Angular projects. Technologies used Angular, Drupal, PHP, PostgresSQL, Twig, GitLab, HTML, CSS, Bootstrap, JavaScript, TypeScript",
-  "Descripcion tienda angular":"A project that simulates a store with registration and login added to the database, both via email and Google. It allows adding and removing items fetched from an API to the cart, viewing the products in the cart, and seeing the corresponding prices. Additionally, you can view and edit your profile data.",
+  "Descripcion tienda angular":"Store simulation project in which Ngrx store and RxJS have been used to control the status of the products and store them in the LocalStorage, which can be added, deleted, incremented, decremented in the store with a Login system through Firebase, to start session with email and password or Google.",
   "Descripcion mayballine":"A project that simulates a store where you can add, increment, decrement, and empty the shopping cart. Additionally, you can see the corresponding price at all times with data saved in localStorage.",
   "Ultimos Proyectos":"Last Projects",
   "Idiomas": "Languages",

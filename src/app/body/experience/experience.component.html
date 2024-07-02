@@ -6,12 +6,14 @@
     <div class="labor">
       <h5>{{ "Laboral" | translate }}</h5>
       <div class="text-content">
-        <div class="date-exp"><div class="date-exp-background">01-10-23 | 05-04-24</div></div> 
+        <div class="date-exp">
+          <div class="date-exp-background">01-10-23 | 05-04-24</div>
+        </div>
         <div class="vertical-line"></div>
         <div class="company">
           <h6>TicSmart S.L</h6>
           <div class="description">
-            {{"Responsabilidades:" | translate}}
+            {{ "Responsabilidades:" | translate }}
             <ul>
               <li class="li-experience">
                 {{ "Front-end:" | translate }}
@@ -132,42 +134,57 @@
                   </li>
                 </ul>
               </li>
-          </ul>
-          <div class="description"> {{ "Tecnologías utilizadas:" | translate }}
-                <ul class="li-li-experience li-li-experience-tech li-achivement-tech">
-                  <li>
-                    <ul class="li-achivement-tech">
-                      <li><span>|</span> Angular <span>|</span> Drupal
-                        <span>|</span> PHP <span>|</span> JavaScript
-                        <span>|</span> TypeScript <span>|</span> PostgresSQL
-                        <span>|</span> Twig <span>|</span> GitLab <span>|</span> Git
-                        <span>|</span> HTML <span>|</span> CSS
-                        <span>|</span> Bootstrap <span>|</span></li>
-                    </ul>
-                    
-                  </li>
-                </ul>
-              </div>
-              <div class="description">
-                {{"Logros:"|translate}}
-             <ul class="li-achivement-tech">
-              <li>
-                <ul class="li-li-experience">
-                  <li>{{"Ayudé a los compañeros explicando módulos y funcionalidades de Drupal."|translate}}</li>
-                  <li>{{"Ayudé al equipo a mantenerse por delante del cronograma del sprint."|translate}}</li>
-                </ul>
-              </li>
-             </ul>
-                </div>
+            </ul>
+            <div class="description">
+              {{ "Tecnologías utilizadas:" | translate }}
+              <ul
+                class="li-li-experience li-li-experience-tech li-achivement-tech"
+              >
+                <li>
+                  <ul class="li-achivement-tech">
+                    <li>
+                      <span>|</span> Angular <span>|</span> Drupal
+                      <span>|</span> PHP <span>|</span> JavaScript
+                      <span>|</span> TypeScript <span>|</span> PostgresSQL
+                      <span>|</span> Twig <span>|</span> GitLab
+                      <span>|</span> Git <span>|</span> HTML <span>|</span> CSS
+                      <span>|</span> Bootstrap <span>|</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="description">
+              {{ "Logros:" | translate }}
+              <ul class="li-achivement-tech">
+                <li>
+                  <ul class="li-li-experience">
+                    <li>
+                      {{
+                        "Ayudé a los compañeros explicando módulos y funcionalidades de Drupal."
+                          | translate
+                      }}
+                    </li>
+                    <li>
+                      {{
+                        "Ayudé al equipo a mantenerse por delante del cronograma del sprint."
+                          | translate
+                      }}
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="projects">
+    <!-- <div class="projects">
       <h5>{{ "Ultimos Proyectos" | translate }}</h5>
 
       <div class="project-images">
         <div class="mayballine-project">
+          
           <h4 class="react-title">React v.18</h4>
           <img src="../../../assets/imagenes/preview-mayballine.PNG" alt="" />
           <div class="description-projects mayballine-description">
@@ -198,36 +215,111 @@
         </div>
 
         <div class="shop-project">
-          <h4 class="angular-title">Angular v.16</h4>
-          <img src="../../../assets/imagenes/preview-shop.PNG" alt="" />
-          <div class="description-projects">
-            {{ "Descripcion tienda angular" | translate }}
-            <br />
-            <br />
-            <div class="project-info">
-              <div>
-                <span>|</span> Angular <span>|</span> TypeScript
-                <span>|</span> Firebase <span>|</span> Tailwind
-                <span>|</span> HTML <span>|</span> CSS <span>|</span>
+
+ 
+
+            <h4 class="angular-title">Angular v.16</h4>
+            <img
+              src="../../../assets/imagenes/last-project-angular.png"
+              alt=""
+            />
+            <div class="description-projects">
+              {{ "Descripcion tienda angular" | translate }}
+              <br />
+              <br />
+              <div class="project-info">
+                <div>
+                  <span>|</span> Angular <span>|</span> TypeScript
+                  <span>|</span> Firebase <span>|</span> Bootstrap
+                  <span>|</span> HTML <span>|</span> CSS <span>|</span>
+                </div>
+                <div class="icons-projects">
+                  <p>
+                    <a
+                      href="https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://proyecto-tienda-completa-angular.vercel.app/"
+                      ><i class="bi bi-browser-chrome"></i
+                    ></a>
+                  </p>
+                </div>
               </div>
-              <div class="icons-projects">
-                <p>
-                  <a
-                    href="https://github.com/vanemp21/Proyecto-Tienda-Completa--Angular"
-                    ><i class="bi bi-github"></i
-                  ></a>
-                </p>
-                <p>
-                  <a href="https://proyecto-tienda-completa-angular.vercel.app/"
-                    ><i class="bi bi-browser-chrome"></i
-                  ></a>
-                </p>
-              </div>
+            
             </div>
+          
+   
+       
+       
+        </div>
+
+
+      </div>
+    </div> -->
+
+    <div class="proyectos">
+      <h5>{{ "Ultimos Proyectos" | translate }}</h5>
+      <div class="projects-flex">
+        <div class="project-react">
+          <div><h4 class="react-title">React v.18</h4></div>
+          <div>
+            <img src="../../../assets/imagenes/last-project-react.png" alt="" />
+          </div>
+          <div class="project-description">
+            {{ "Descripcion mayballine" | translate }}
+          </div>
+          <div class="project-technology">
+            <span>|</span> React <span>|</span> TypeScript <span>|</span> HTML
+            <span>|</span> CSS <span>|</span> Bootstrap
+            <span>|</span>
+          </div>
+          <div class="icons-projects">
+            <p>
+              <a href="https://github.com/vanemp21/Proyecto-Tienda--ReactTS"
+                ><i class="bi bi-github"></i
+              ></a>
+            </p>
+            <p>
+              <a
+                href="https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/"
+                ><i class="bi bi-browser-chrome"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="project-angular">
+          <div><h4 class="angular-title">Angular v.16</h4></div>
+          <div>
+            <img
+              src="../../../assets/imagenes/last-project-angular.png"
+              alt=""
+            />
+          </div>
+          <div class="project-description">
+            {{ "Descripcion tienda angular" | translate }}
+          </div>
+          <div class="project-technology">
+            <span>|</span> Angular <span>|</span> TypeScript
+            <span>|</span> Firebase <span>|</span> Bootstrap <span>|</span> HTML
+            <span>|</span> CSS <span>|</span>
+          </div>
+          <div class="icons-projects">
+            <a
+              href="https://github.com/vanemp21/Proyecto-Tienda-Ngx-Angular"
+              ><i class="bi bi-github"></i
+            ></a>
+
+            <a href="https://main--project-ngx-angular.netlify.app/"
+              ><i class="bi bi-browser-chrome"></i
+            ></a>
           </div>
         </div>
       </div>
     </div>
+
     <div class="languages">
       <h5>{{ "Idiomas" | translate }}</h5>
       <div class="text-content-3">
