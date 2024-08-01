@@ -76,9 +76,6 @@
     text-align: center;
   }
   
-  .ico-symfony{
-
-  }
   .front{
     background-color:var(--bg1);
     border-radius: 10px;
@@ -94,7 +91,9 @@
     padding-top:2px;
     font-size: 14.2px;
   }
-  
+  .frame span{
+    margin-top:10px;
+  }
   .flip-container:hover .flipper {
     transform: rotateY(180deg);
   }
