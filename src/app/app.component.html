@@ -1,28 +1,20 @@
-<div class="traduction" style="display: flex; flex-direction: column; align-items:flex-end;">
-  <div class="idiomas" style="display: flex; gap:10px;">
-  <i class="bi bi-globe2"></i>
-  <select #languageSelector (change)="changeLanguage(languageSelector.value)">
-    <i class="sl-flag flag-de"></i>
-    <option value="es">Español</option>
-    <option value="en">English</option>
-  </select></div>
-  <a
-  style="display: flex; justify-content: center"
-  href="https://websmultimedia.com/contador-de-visitas-gratis"
-  title="Contador De Visitas Gratis"
+<div
+  class="traduction"
+  style="display: flex; flex-direction: column; align-items: flex-end"
 >
-  <img
-    style="border: 0px solid; display: inline; height: 15px; width: auto"
-    alt="contador de visitas"
-    src="https://websmultimedia.com/contador-de-visitas.php?id=17089" />
-    </a
->
+  <div class="idiomas" style="display: flex; gap: 10px">
+    <i class="bi bi-globe2"></i>
+    <select #languageSelector (change)="changeLanguage(languageSelector.value)">
+      <i class="sl-flag flag-de"></i>
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+
 </div>
 
 <header><app-header /></header>
 <div class="content">
-  
   <div class="body"><app-body /></div>
-  
 </div>
 <footer><app-footer /></footer>
